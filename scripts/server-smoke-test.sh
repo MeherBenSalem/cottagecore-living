@@ -70,6 +70,11 @@ grep -n -i -E "COTTAGE_SMOKE|cottagecoreliving|Cottagecore Living|Done \(" "$LOG
 for f in "$RUN"/crash-reports/*.txt; do [ -f "$f" ] && { echo "=== $f"; head -80 "$f"; }; done
 grep -n -E "ERROR|Exception|Caused by|[Mm]ixin.*(fail|error)" "$LOG" | head -60
 echo "Result: $result"
+if [ "$result" != ok ]; then
+  # The Gradle output (compile errors included) only lives in $LOG, so show the useful part here.
+  grep -n -E ": error:|What went wrong|FAILURE:" -A6 "$LOG" | head -150
+  echo "=== last lines of $LOG"; tail -60 "$LOG"
+fi
 if [ "$result" != ok ] || grep -q -E "This crash report has been saved|InvalidInjectionException" "$LOG"; then exit 1; fi
 grep -q "COTTAGE_SMOKE_PLACED $COUNT" "$LOG" || { echo "Not every decoration was placed"; exit 1; }
 if grep -E "ERROR|Exception|Caused by" "$LOG" | grep -q -E 'com.sugarplumstudios|cottagecoreliving([^-.a-z]|$)'; then echo "The log has errors naming Cottagecore Living"; exit 1; fi

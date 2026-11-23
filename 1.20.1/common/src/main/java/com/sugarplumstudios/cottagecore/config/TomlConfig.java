@@ -1,4 +1,4 @@
-package com.sugarplumstudios.coquette.config;
+package com.sugarplumstudios.cottagecore.config;
 
 import com.sugarplumstudios.cottagecore.CottagecoreLiving;
 
