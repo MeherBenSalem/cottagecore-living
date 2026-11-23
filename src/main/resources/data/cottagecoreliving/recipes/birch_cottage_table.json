@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cottage_table",
+  "pattern": [
+    "sss",
+    "f f",
+    "f f"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:birch_slab"
+    },
+    "f": {
+      "item": "minecraft:birch_fence"
+    }
+  },
+  "result": {
+    "item": "cottagecoreliving:birch_cottage_table",
+    "count": 2
+  }
+}

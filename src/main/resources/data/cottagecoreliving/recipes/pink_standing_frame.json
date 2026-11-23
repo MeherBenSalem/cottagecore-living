@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "standing_frame",
+  "ingredients": [
+    {
+      "item": "minecraft:painting"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "tag": "cottagecoreliving:sets/pink"
+    }
+  ],
+  "result": {
+    "item": "cottagecoreliving:pink_standing_frame"
+  }
+}

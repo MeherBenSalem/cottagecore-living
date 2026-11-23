@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bunny_figurine",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:rabbit_hide"
+    }
+  ],
+  "result": {
+    "item": "cottagecoreliving:bunny_figurine"
+  }
+}

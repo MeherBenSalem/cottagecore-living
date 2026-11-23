@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cottage_table",
+  "pattern": [
+    "sss",
+    "f f",
+    "f f"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:cherry_slab"
+    },
+    "f": {
+      "item": "minecraft:cherry_fence"
+    }
+  },
+  "result": {
+    "item": "cottagecoreliving:cherry_cottage_table",
+    "count": 2
+  }
+}

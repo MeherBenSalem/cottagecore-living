@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=north,season=spring,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/spring"
+    },
+    "facing=north,season=spring,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/spring_low"
+    },
+    "facing=north,season=summer,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/summer"
+    },
+    "facing=north,season=summer,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/summer_low"
+    },
+    "facing=north,season=autumn,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/autumn"
+    },
+    "facing=north,season=autumn,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/autumn_low"
+    },
+    "facing=north,season=winter,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/winter"
+    },
+    "facing=north,season=winter,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/winter_low"
+    },
+    "facing=east,season=spring,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/spring",
+      "y": 90
+    },
+    "facing=east,season=spring,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/spring_low",
+      "y": 90
+    },
+    "facing=east,season=summer,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/summer",
+      "y": 90
+    },
+    "facing=east,season=summer,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/summer_low",
+      "y": 90
+    },
+    "facing=east,season=autumn,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/autumn",
+      "y": 90
+    },
+    "facing=east,season=autumn,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/autumn_low",
+      "y": 90
+    },
+    "facing=east,season=winter,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/winter",
+      "y": 90
+    },
+    "facing=east,season=winter,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/winter_low",
+      "y": 90
+    },
+    "facing=south,season=spring,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/spring",
+      "y": 180
+    },
+    "facing=south,season=spring,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/spring_low",
+      "y": 180
+    },
+    "facing=south,season=summer,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/summer",
+      "y": 180
+    },
+    "facing=south,season=summer,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/summer_low",
+      "y": 180
+    },
+    "facing=south,season=autumn,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/autumn",
+      "y": 180
+    },
+    "facing=south,season=autumn,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/autumn_low",
+      "y": 180
+    },
+    "facing=south,season=winter,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/winter",
+      "y": 180
+    },
+    "facing=south,season=winter,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/winter_low",
+      "y": 180
+    },
+    "facing=west,season=spring,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/spring",
+      "y": 270
+    },
+    "facing=west,season=spring,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/spring_low",
+      "y": 270
+    },
+    "facing=west,season=summer,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/summer",
+      "y": 270
+    },
+    "facing=west,season=summer,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/summer_low",
+      "y": 270
+    },
+    "facing=west,season=autumn,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/autumn",
+      "y": 270
+    },
+    "facing=west,season=autumn,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/autumn_low",
+      "y": 270
+    },
+    "facing=west,season=winter,low=false": {
+      "model": "cottagecoreliving:block/seasonal_doormat/winter",
+      "y": 270
+    },
+    "facing=west,season=winter,low=true": {
+      "model": "cottagecoreliving:block/seasonal_doormat/winter_low",
+      "y": 270
+    }
+  }
+}

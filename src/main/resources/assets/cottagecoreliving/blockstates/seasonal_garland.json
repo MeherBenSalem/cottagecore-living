@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,season=spring": {
+      "model": "cottagecoreliving:block/seasonal_garland/spring"
+    },
+    "facing=north,season=summer": {
+      "model": "cottagecoreliving:block/seasonal_garland/summer"
+    },
+    "facing=north,season=autumn": {
+      "model": "cottagecoreliving:block/seasonal_garland/autumn"
+    },
+    "facing=north,season=winter": {
+      "model": "cottagecoreliving:block/seasonal_garland/winter"
+    },
+    "facing=east,season=spring": {
+      "model": "cottagecoreliving:block/seasonal_garland/spring",
+      "y": 90
+    },
+    "facing=east,season=summer": {
+      "model": "cottagecoreliving:block/seasonal_garland/summer",
+      "y": 90
+    },
+    "facing=east,season=autumn": {
+      "model": "cottagecoreliving:block/seasonal_garland/autumn",
+      "y": 90
+    },
+    "facing=east,season=winter": {
+      "model": "cottagecoreliving:block/seasonal_garland/winter",
+      "y": 90
+    },
+    "facing=south,season=spring": {
+      "model": "cottagecoreliving:block/seasonal_garland/spring",
+      "y": 180
+    },
+    "facing=south,season=summer": {
+      "model": "cottagecoreliving:block/seasonal_garland/summer",
+      "y": 180
+    },
+    "facing=south,season=autumn": {
+      "model": "cottagecoreliving:block/seasonal_garland/autumn",
+      "y": 180
+    },
+    "facing=south,season=winter": {
+      "model": "cottagecoreliving:block/seasonal_garland/winter",
+      "y": 180
+    },
+    "facing=west,season=spring": {
+      "model": "cottagecoreliving:block/seasonal_garland/spring",
+      "y": 270
+    },
+    "facing=west,season=summer": {
+      "model": "cottagecoreliving:block/seasonal_garland/summer",
+      "y": 270
+    },
+    "facing=west,season=autumn": {
+      "model": "cottagecoreliving:block/seasonal_garland/autumn",
+      "y": 270
+    },
+    "facing=west,season=winter": {
+      "model": "cottagecoreliving:block/seasonal_garland/winter",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stepping_stones",
+  "ingredients": [
+    {
+      "item": "minecraft:mossy_cobblestone_slab"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone_slab"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone_slab"
+    }
+  ],
+  "result": {
+    "item": "cottagecoreliving:mossy_stepping_stones",
+    "count": 4
+  }
+}

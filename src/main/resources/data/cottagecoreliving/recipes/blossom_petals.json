@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "blossom_petals",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_petals"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    }
+  ],
+  "result": {
+    "item": "cottagecoreliving:blossom_petals",
+    "count": 2
+  }
+}

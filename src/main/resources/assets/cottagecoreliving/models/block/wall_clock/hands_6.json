@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/block","render_type":"minecraft:cutout","textures":{"clock_hands_6":"cottagecoreliving:block/clock_hands_6","particle":"cottagecoreliving:block/clock_hands_6"},"elements":[{"from":[2.75,2.75,14.9],"to":[13.25,13.25,14.9],"faces":{"north":{"uv":[0,0,16,16],"texture":"#clock_hands_6"},"south":{"uv":[0,0,16,16],"texture":"#clock_hands_6"}}}]}

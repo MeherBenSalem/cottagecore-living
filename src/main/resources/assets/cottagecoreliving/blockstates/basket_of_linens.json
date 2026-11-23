@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,low=false": {
+      "model": "cottagecoreliving:block/basket_of_linens/base"
+    },
+    "facing=north,low=true": {
+      "model": "cottagecoreliving:block/basket_of_linens/low"
+    },
+    "facing=east,low=false": {
+      "model": "cottagecoreliving:block/basket_of_linens/base",
+      "y": 90
+    },
+    "facing=east,low=true": {
+      "model": "cottagecoreliving:block/basket_of_linens/low",
+      "y": 90
+    },
+    "facing=south,low=false": {
+      "model": "cottagecoreliving:block/basket_of_linens/base",
+      "y": 180
+    },
+    "facing=south,low=true": {
+      "model": "cottagecoreliving:block/basket_of_linens/low",
+      "y": 180
+    },
+    "facing=west,low=false": {
+      "model": "cottagecoreliving:block/basket_of_linens/base",
+      "y": 270
+    },
+    "facing=west,low=true": {
+      "model": "cottagecoreliving:block/basket_of_linens/low",
+      "y": 270
+    }
+  }
+}

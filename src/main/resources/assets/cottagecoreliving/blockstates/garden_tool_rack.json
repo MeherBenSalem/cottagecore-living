@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cottagecoreliving:block/garden_tool_rack/base"
+    },
+    "facing=east": {
+      "model": "cottagecoreliving:block/garden_tool_rack/base",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cottagecoreliving:block/garden_tool_rack/base",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cottagecoreliving:block/garden_tool_rack/base",
+      "y": 270
+    }
+  }
+}

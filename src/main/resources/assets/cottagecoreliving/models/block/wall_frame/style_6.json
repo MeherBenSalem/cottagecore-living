@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/block","render_type":"minecraft:cutout","textures":{"picture_6":"cottagecoreliving:block/picture_6","particle":"cottagecoreliving:block/picture_6"},"elements":[{"from":[3,4,15.4],"to":[13,12,15.4],"faces":{"north":{"uv":[0,1.6,16,14.4],"texture":"#picture_6"},"south":{"uv":[0,1.6,16,14.4],"texture":"#picture_6"}}}]}

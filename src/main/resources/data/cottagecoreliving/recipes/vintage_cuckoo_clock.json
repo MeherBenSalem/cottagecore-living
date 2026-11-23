@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cuckoo_clock",
+  "ingredients": [
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "cottagecoreliving:sets/vintage"
+    }
+  ],
+  "result": {
+    "item": "cottagecoreliving:vintage_cuckoo_clock"
+  }
+}

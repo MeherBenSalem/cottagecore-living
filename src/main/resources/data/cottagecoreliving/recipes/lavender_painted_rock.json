@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "painted_rock",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "tag": "cottagecoreliving:sets/lavender"
+    }
+  ],
+  "result": {
+    "item": "cottagecoreliving:lavender_painted_rock"
+  }
+}

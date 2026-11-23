@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_candlestick/base"
+    },
+    "facing=north,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_candlestick/low"
+    },
+    "facing=north,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_candlestick/lit"
+    },
+    "facing=north,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_candlestick/lit_low"
+    },
+    "facing=east,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_candlestick/base",
+      "y": 90
+    },
+    "facing=east,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_candlestick/low",
+      "y": 90
+    },
+    "facing=east,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_candlestick/lit",
+      "y": 90
+    },
+    "facing=east,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_candlestick/lit_low",
+      "y": 90
+    },
+    "facing=south,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_candlestick/base",
+      "y": 180
+    },
+    "facing=south,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_candlestick/low",
+      "y": 180
+    },
+    "facing=south,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_candlestick/lit",
+      "y": 180
+    },
+    "facing=south,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_candlestick/lit_low",
+      "y": 180
+    },
+    "facing=west,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_candlestick/base",
+      "y": 270
+    },
+    "facing=west,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_candlestick/low",
+      "y": 270
+    },
+    "facing=west,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_candlestick/lit",
+      "y": 270
+    },
+    "facing=west,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_candlestick/lit_low",
+      "y": 270
+    }
+  }
+}

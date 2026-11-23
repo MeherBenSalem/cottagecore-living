@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "picnic_blanket",
+  "ingredients": [
+    {
+      "item": "minecraft:white_carpet"
+    },
+    {
+      "item": "minecraft:white_carpet"
+    },
+    {
+      "item": "minecraft:white_carpet"
+    },
+    {
+      "tag": "cottagecoreliving:sets/pink"
+    }
+  ],
+  "result": {
+    "item": "cottagecoreliving:pink_picnic_blanket",
+    "count": 3
+  }
+}

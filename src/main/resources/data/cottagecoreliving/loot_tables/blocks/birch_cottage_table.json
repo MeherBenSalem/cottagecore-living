@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:birch_cottage_table"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:strawberry_tablecloth"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "cottagecoreliving:birch_cottage_table",
+          "properties": {
+            "cloth": "strawberry"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:lavender_tablecloth"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "cottagecoreliving:birch_cottage_table",
+          "properties": {
+            "cloth": "lavender"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:pink_tablecloth"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "cottagecoreliving:birch_cottage_table",
+          "properties": {
+            "cloth": "pink"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:fairy_tablecloth"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "cottagecoreliving:birch_cottage_table",
+          "properties": {
+            "cloth": "fairy"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:vintage_tablecloth"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "cottagecoreliving:birch_cottage_table",
+          "properties": {
+            "cloth": "vintage"
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "cottagecoreliving:blocks/birch_cottage_table"
+}

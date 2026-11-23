@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,mount=floor,low=false": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/floor"
+    },
+    "facing=north,mount=floor,low=true": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/floor_low"
+    },
+    "facing=north,mount=ceiling,low=false": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/ceiling"
+    },
+    "facing=north,mount=ceiling,low=true": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/ceiling"
+    },
+    "facing=east,mount=floor,low=false": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/floor",
+      "y": 90
+    },
+    "facing=east,mount=floor,low=true": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/floor_low",
+      "y": 90
+    },
+    "facing=east,mount=ceiling,low=false": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/ceiling",
+      "y": 90
+    },
+    "facing=east,mount=ceiling,low=true": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/ceiling",
+      "y": 90
+    },
+    "facing=south,mount=floor,low=false": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/floor",
+      "y": 180
+    },
+    "facing=south,mount=floor,low=true": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/floor_low",
+      "y": 180
+    },
+    "facing=south,mount=ceiling,low=false": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/ceiling",
+      "y": 180
+    },
+    "facing=south,mount=ceiling,low=true": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/ceiling",
+      "y": 180
+    },
+    "facing=west,mount=floor,low=false": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/floor",
+      "y": 270
+    },
+    "facing=west,mount=floor,low=true": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/floor_low",
+      "y": 270
+    },
+    "facing=west,mount=ceiling,low=false": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/ceiling",
+      "y": 270
+    },
+    "facing=west,mount=ceiling,low=true": {
+      "model": "cottagecoreliving:block/vintage_birdhouse/ceiling",
+      "y": 270
+    }
+  }
+}
