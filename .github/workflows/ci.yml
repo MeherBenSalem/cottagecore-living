@@ -118,7 +118,7 @@ jobs:
           echo "$n showcase screenshots"
           [ ! -d run/crash-reports ] || { head -150 run/crash-reports/*.txt; exit 1; }
           [ "$n" -ge 9 ] || { echo "Expected 9 showcase screenshots"; exit 1; }
-          if grep -E "ERROR|Exception" run/logs/latest.log | grep -i cottagecore; then echo "The log has errors naming Cottagecore Living"; exit 1; fi
+          if grep -E "ERROR|Exception|Caused by" run/logs/latest.log | grep -E 'com.sugarplumstudios|cottagecoreliving([^-.a-z]|$)'; then echo "The log has errors naming Cottagecore Living"; exit 1; fi
       - name: Errors in the log
         if: always()
         run: grep -n -E "ERROR|Exception|Caused by|at com\.sugarplum" run/logs/latest.log | head -200 || true

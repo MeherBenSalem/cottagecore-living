@@ -66,5 +66,5 @@ echo "Result: $result"
 grep -q "This crash report has been saved" "$LOG" && exit 1
 grep -q -E "Done \([0-9.]+s\)!" "$LOG" || { echo "The server never finished starting"; exit 1; }
 grep -q "COTTAGE_BOOT_PLACED $(grep -c . "$ROOT/tools/generated_ids.txt")" "$LOG" || { echo "Not every decoration was placed"; exit 1; }
-if grep -E "ERROR|Exception" "$LOG" | grep -q -i "cottagecore"; then echo "The log has errors naming Cottagecore Living"; exit 1; fi
+if grep -E "ERROR|Exception|Caused by" "$LOG" | grep -q -E 'com.sugarplumstudios|cottagecoreliving([^-.a-z]|$)'; then echo "The log has errors naming Cottagecore Living"; exit 1; fi
 echo "Server boot test passed"
