@@ -13,6 +13,11 @@ rm -rf "$RUN/world" "$RUN/crash-reports" "$RUN/logs"
 PACK="$RUN/world/datapacks/cottage_smoke"
 mkdir -p "$PACK"
 echo "eula=true" > "$RUN/eula.txt"
+if [ "$LOADER" = forge ]; then
+  # In the Forge 1.20.1 dev environment the LAN advertiser loads a client-only class and the dedicated server stops.
+  mkdir -p "$RUN/defaultconfigs"
+  printf '[server]\n\tadvertiseDedicatedServerToLan = false\n' > "$RUN/defaultconfigs/forge-server.toml"
+fi
 cat > "$RUN/server.properties" <<PROPS
 online-mode=false
 function-permission-level=4

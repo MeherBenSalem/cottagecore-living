@@ -10,6 +10,6 @@ public final class ClientAccess {
     }
 
     public static void openBook(OpenBookPacket packet) {
-        Minecraft.getInstance().setScreen(new CollectionBookScreen(packet));
+        Minecraft.getInstance().gui.setScreen(new CollectionBookScreen(packet));
     }
 }

@@ -13,7 +13,10 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -37,6 +40,9 @@ import net.minecraft.world.level.gameevent.GameEvent;
  * success so the arm swings.
  */
 public final class Interactions {
+    // BlockTags.SAPLINGS is gone since 26.2; the vanilla minecraft:saplings tag still exists.
+    private static final TagKey<Block> SAPLINGS = TagKey.create(Registries.BLOCK, Identifier.withDefaultNamespace("saplings"));
+
     public static final int QUOTES = 8;
     public static final int COMPLIMENTS = 6;
     private static final Item[] FAIRY_GIFTS = {Items.SUGAR, Items.SWEET_BERRIES, Items.GLOW_BERRIES, Items.HONEYCOMB,
@@ -182,7 +188,7 @@ public final class Interactions {
                     for (int dy = 0; dy >= -1; dy--) {
                         BlockPos p = center.offset(dx, dy, dz);
                         BlockState target = server.getBlockState(p);
-                        boolean plant = target.is(BlockTags.CROPS) || target.is(BlockTags.SAPLINGS)
+                        boolean plant = target.is(BlockTags.CROPS) || target.is(SAPLINGS)
                                 || target.getBlock() instanceof VegetationBlock;
                         if (!plant) {
                             continue;
