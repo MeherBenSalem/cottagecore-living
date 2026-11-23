@@ -15,8 +15,8 @@ public final class CottagecoreLivingFabric implements ModInitializer {
     public void onInitialize() {
         CottagecoreLiving.init();
 
-        PayloadTypeRegistry.playS2C().register(OpenBookPacket.TYPE, OpenBookPacket.STREAM_CODEC);
-        PayloadTypeRegistry.playC2S().register(TakePacket.TYPE, TakePacket.STREAM_CODEC);
+        PayloadTypeRegistry.clientboundPlay().register(OpenBookPacket.TYPE, OpenBookPacket.STREAM_CODEC);
+        PayloadTypeRegistry.serverboundPlay().register(TakePacket.TYPE, TakePacket.STREAM_CODEC);
         // Handlers run on the server's main thread.
         ServerPlayNetworking.registerGlobalReceiver(TakePacket.TYPE, (packet, context) -> TakePacket.handle(packet, context.player()));
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> CommonEvents.onLogin(handler.player));
