@@ -1,0 +1,756 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sets_vintage_print": "cottagecoreliving:block/sets/vintage/print",
+    "lace": "cottagecoreliving:block/lace",
+    "particle": "cottagecoreliving:block/sets/vintage/print"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        13.75
+      ],
+      "to": [
+        2,
+        16,
+        14.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "east": {
+          "uv": [
+            1.25,
+            0,
+            2.25,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "west": {
+          "uv": [
+            13.75,
+            0,
+            14.75,
+            16
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "west"
+        },
+        "up": {
+          "uv": [
+            0,
+            13.75,
+            2,
+            14.75
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            1.25,
+            2,
+            2.25
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        13.69
+      ],
+      "to": [
+        2,
+        1,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#lace"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        0,
+        13.25
+      ],
+      "to": [
+        4,
+        16,
+        14.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            0,
+            14,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "east": {
+          "uv": [
+            1.75,
+            0,
+            2.75,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            0,
+            14.25,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "up": {
+          "uv": [
+            2,
+            13.25,
+            4,
+            14.25
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            2,
+            1.75,
+            4,
+            2.75
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        0,
+        13.19
+      ],
+      "to": [
+        4,
+        1,
+        13.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#lace"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        0,
+        13.75
+      ],
+      "to": [
+        6,
+        16,
+        14.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            0,
+            12,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            6,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "east": {
+          "uv": [
+            1.25,
+            0,
+            2.25,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "west": {
+          "uv": [
+            13.75,
+            0,
+            14.75,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "up": {
+          "uv": [
+            4,
+            13.75,
+            6,
+            14.75
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            4,
+            1.25,
+            6,
+            2.25
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        0,
+        13.69
+      ],
+      "to": [
+        6,
+        1,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#lace"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0,
+        13.25
+      ],
+      "to": [
+        8,
+        16,
+        14.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            0,
+            10,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "south": {
+          "uv": [
+            6,
+            0,
+            8,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "east": {
+          "uv": [
+            1.75,
+            0,
+            2.75,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            0,
+            14.25,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "up": {
+          "uv": [
+            6,
+            13.25,
+            8,
+            14.25
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            6,
+            1.75,
+            8,
+            2.75
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0,
+        13.19
+      ],
+      "to": [
+        8,
+        1,
+        13.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#lace"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        0,
+        13.75
+      ],
+      "to": [
+        10,
+        16,
+        14.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            0,
+            8,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "south": {
+          "uv": [
+            8,
+            0,
+            10,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "east": {
+          "uv": [
+            1.25,
+            0,
+            2.25,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "west": {
+          "uv": [
+            13.75,
+            0,
+            14.75,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "up": {
+          "uv": [
+            8,
+            13.75,
+            10,
+            14.75
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            8,
+            1.25,
+            10,
+            2.25
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        0,
+        13.69
+      ],
+      "to": [
+        10,
+        1,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#lace"
+        }
+      }
+    },
+    {
+      "from": [
+        10,
+        0,
+        13.25
+      ],
+      "to": [
+        12,
+        16,
+        14.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            0,
+            6,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "south": {
+          "uv": [
+            10,
+            0,
+            12,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "east": {
+          "uv": [
+            1.75,
+            0,
+            2.75,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            0,
+            14.25,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "up": {
+          "uv": [
+            10,
+            13.25,
+            12,
+            14.25
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            10,
+            1.75,
+            12,
+            2.75
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        10,
+        0,
+        13.19
+      ],
+      "to": [
+        12,
+        1,
+        13.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#lace"
+        }
+      }
+    },
+    {
+      "from": [
+        12,
+        0,
+        13.75
+      ],
+      "to": [
+        14,
+        16,
+        14.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "south": {
+          "uv": [
+            12,
+            0,
+            14,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "east": {
+          "uv": [
+            1.25,
+            0,
+            2.25,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "west": {
+          "uv": [
+            13.75,
+            0,
+            14.75,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "up": {
+          "uv": [
+            12,
+            13.75,
+            14,
+            14.75
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            12,
+            1.25,
+            14,
+            2.25
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        12,
+        0,
+        13.69
+      ],
+      "to": [
+        14,
+        1,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#lace"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        0,
+        13.25
+      ],
+      "to": [
+        16,
+        16,
+        14.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "south": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "east": {
+          "uv": [
+            1.75,
+            0,
+            2.75,
+            16
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "east"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            0,
+            14.25,
+            16
+          ],
+          "texture": "#sets_vintage_print"
+        },
+        "up": {
+          "uv": [
+            14,
+            13.25,
+            16,
+            14.25
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            14,
+            1.75,
+            16,
+            2.75
+          ],
+          "texture": "#sets_vintage_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        0,
+        13.19
+      ],
+      "to": [
+        16,
+        1,
+        13.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#lace"
+        }
+      }
+    }
+  ]
+}

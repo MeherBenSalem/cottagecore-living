@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bunting",
+  "ingredients": [
+    "minecraft:string",
+    "minecraft:string",
+    "minecraft:paper",
+    "minecraft:paper",
+    "#cottagecoreliving:sets/pink"
+  ],
+  "result": {
+    "count": 2,
+    "id": "cottagecoreliving:pink_bunting"
+  }
+}

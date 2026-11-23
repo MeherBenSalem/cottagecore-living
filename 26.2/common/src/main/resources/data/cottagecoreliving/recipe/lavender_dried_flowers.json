@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dried_flowers",
+  "ingredients": [
+    "#minecraft:small_flowers",
+    "#minecraft:small_flowers",
+    "minecraft:string",
+    "#cottagecoreliving:sets/lavender"
+  ],
+  "result": {
+    "id": "cottagecoreliving:lavender_dried_flowers"
+  }
+}

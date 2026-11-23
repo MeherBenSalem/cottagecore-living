@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "garden_gnome",
+  "ingredients": [
+    "minecraft:terracotta",
+    "minecraft:white_wool",
+    "#cottagecoreliving:sets/pink"
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_garden_gnome"
+  }
+}

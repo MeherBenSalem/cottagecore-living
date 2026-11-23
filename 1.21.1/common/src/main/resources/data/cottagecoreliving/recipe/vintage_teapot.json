@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "teapot",
+  "ingredients": [
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "tag": "cottagecoreliving:sets/vintage"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_teapot"
+  }
+}

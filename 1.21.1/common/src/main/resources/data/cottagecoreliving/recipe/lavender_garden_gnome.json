@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "garden_gnome",
+  "ingredients": [
+    {
+      "item": "minecraft:terracotta"
+    },
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "tag": "cottagecoreliving:sets/lavender"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:lavender_garden_gnome"
+  }
+}

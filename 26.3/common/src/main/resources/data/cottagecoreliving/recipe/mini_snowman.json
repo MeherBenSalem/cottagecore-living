@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mini_snowman",
+  "ingredients": [
+    "minecraft:snow_block",
+    "minecraft:snowball",
+    "minecraft:carrot"
+  ],
+  "result": {
+    "id": "cottagecoreliving:mini_snowman"
+  }
+}

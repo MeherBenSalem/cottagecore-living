@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "blossom_garland",
+  "ingredients": [
+    "minecraft:cherry_leaves",
+    "minecraft:cherry_leaves",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "cottagecoreliving:blossom_garland"
+  }
+}

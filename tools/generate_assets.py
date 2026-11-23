@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Generates every Cottagecore Living asset: textures, block and item models,
 blockstates, loot tables, recipes, tags, the language file and the generated
-Java catalog (src/main/java/.../catalog/DecorCatalog.java).
+Java catalog (1.20.1/common/src/main/java/.../catalog/DecorCatalog.java). Run tools/port_data.py
+afterwards to carry both into the 1.21.1, 26.2 and 26.3 workspaces.
 
     python tools/generate_assets.py
 

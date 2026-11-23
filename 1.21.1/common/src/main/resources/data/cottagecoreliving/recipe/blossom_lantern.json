@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "blossom_lantern",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:blossom_lantern"
+  }
+}

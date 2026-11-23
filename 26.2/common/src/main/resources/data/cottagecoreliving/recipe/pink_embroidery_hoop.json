@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "embroidery_hoop",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:string",
+    "minecraft:white_carpet",
+    "#cottagecoreliving:sets/pink"
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_embroidery_hoop"
+  }
+}

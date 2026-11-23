@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/block","render_type":"minecraft:cutout","textures":{"sign_design_1":"cottagecoreliving:block/sign_design_1","particle":"cottagecoreliving:block/sign_design_1"},"elements":[{"from":[2,8,6.9],"to":[14,14,6.9],"faces":{"north":{"uv":[2,5,14,11],"texture":"#sign_design_1"},"south":{"uv":[2,5,14,11],"texture":"#sign_design_1"}}}]}

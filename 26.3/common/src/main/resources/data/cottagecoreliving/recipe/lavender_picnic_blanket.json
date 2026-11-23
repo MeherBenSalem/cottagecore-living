@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "picnic_blanket",
+  "ingredients": [
+    "minecraft:white_carpet",
+    "minecraft:white_carpet",
+    "minecraft:white_carpet",
+    "#cottagecoreliving:sets/lavender"
+  ],
+  "result": {
+    "count": 3,
+    "id": "cottagecoreliving:lavender_picnic_blanket"
+  }
+}

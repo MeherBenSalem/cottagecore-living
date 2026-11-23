@@ -1,6 +1,6 @@
 # Cottagecore Living — The Little Details 🌼
 
-*A Sugarplum Studios mod for Minecraft Java 1.20.1 (Forge 47.x)*
+*A Sugarplum Studios mod for Minecraft Java 1.20.1 (Fabric, Forge), 1.21.1, 26.2 and 26.3 (Fabric, NeoForge)*
 
 The tiny details that make a house feel lived-in. **285 decorations** in 84 kinds,
 plus 5 tablecloths and the **Decoration Collection Book**: books and candles, vases,
@@ -22,19 +22,57 @@ Every decoration at a glance: [interior](docs/catalog_interior.png), [garden](do
 
 ---
 
+## Which jar do I download?
+
+Jar names are `cottagecoreliving-{loader}-{minecraft}-{modVersion}.jar`. Match **both** the Minecraft version and
+the loader.
+
+| Minecraft | Java | Fabric jar (needs Fabric API) | NeoForge / Forge jar |
+|-----------|------|-------------------------------|----------------------|
+| 1.20.1 | 17+ | `…-fabric-1.20.1-….jar` | `…-forge-1.20.1-….jar` (Forge 47) |
+| 1.21.1 | 21+ | `…-fabric-1.21.1-….jar` | `…-neoforge-1.21.1-….jar` |
+| 26.2 | 25+ | `…-fabric-26.2-….jar` | `…-neoforge-26.2-….jar` |
+| 26.3 | 25+ | `…-fabric-26.3-….jar` | `…-neoforge-26.3-….jar` |
+
+The mod is needed on both the server and the client.
+
 ## Building
+
+Each Minecraft version is a separate MultiLoader Gradle workspace with its own wrapper. These are the only supported
+targets (the NightBeam convention): 8 jars per release, all with the same version.
+
+| Minecraft | Loaders | Java | Folder |
+| --- | --- | --- | --- |
+| 1.20.1 | Forge, Fabric | 17 bytecode (build on 21) | `1.20.1/{common,forge,fabric}` |
+| 1.21.1 | NeoForge, Fabric | 21 | `1.21.1/{common,neoforge,fabric}` |
+| 26.2 | NeoForge, Fabric | 25 | `26.2/{common,neoforge,fabric}` |
+| 26.3 | NeoForge, Fabric | 25 | `26.3/{common,neoforge,fabric}` |
+
+```bash
+./gradlew buildAll             # every workspace, then the 8 loader jars into releases/
+cd 1.20.1 && ./gradlew build   # Gradle on Java 21 (Java 17 toolchain)
+cd 1.21.1 && ./gradlew build   # Java 21
+cd 26.3 && ./gradlew build     # Java 25 (the same for 26.2)
+```
+
+The root build hands the 26.x workspaces `JAVA_HOME_25_X64` (or `-Pjava25Home=<jdk>`) and the others
+`JAVA_HOME_21_X64` (or `-Pjava21Home=<jdk>`); without them each workspace uses the current `JAVA_HOME`.
+Jars land in `<workspace>/<loader>/build/libs/cottagecoreliving-<loader>-<minecraft>-<version>.jar`. Every
+workspace's `gradle.properties` carries the same `version=` (`./gradlew checkVersions`; set it with
+`./gradlew syncVersion -PmodVersion=x.y.z`). `python3 scripts/check_targets.py workspaces` checks the targets, the
+shared version and the metadata ranges. Release notes for a version live in `patchnotes/<version>.md`.
 
 | Command | What it does |
 |---|---|
-| `python tools/generate_assets.py` | Regenerates every texture, model, blockstate, item model, loot table, recipe, tag, the language file **and** `catalog/DecorCatalog.java`, then checks every reference and looks for recipes that would shadow each other. |
-| `./gradlew build` | Builds the mod jar: `build/libs/cottagecoreliving-forge-1.20.1-1.0.0.jar`. |
-| `./gradlew runClient` | Starts a development client with the mod. |
-| `./gradlew runGameTestServer` | Runs the 13 automated in-game tests and exits (non-zero on failure). |
-| `./gradlew runClient -Pshowcase` | Builds a decorated showcase world, screenshots each scene and the collection book into `run/screenshots/`, then quits. Development only; it is left out of the jar. |
+| `python tools/generate_assets.py` | Regenerates every texture, model, blockstate, item model, loot table, recipe, tag, the language file **and** `catalog/DecorCatalog.java` in the 1.20.1 workspace, then checks every reference and looks for recipes that would shadow each other. |
+| `python tools/port_data.py <1.21.1\|26.2\|26.3>` | Copies the generated data into another workspace in that version's format (data folder names, item definitions, pack format, model fields). |
+| `cd 1.20.1 && ./gradlew :forge:runGameTestServer` | Runs the 13 automated in-game tests and exits (non-zero on failure). |
+| `cd 1.20.1 && ./gradlew :forge:runClient -Pshowcase` | Builds a decorated showcase world, screenshots each scene and the collection book into `1.20.1/forge/runs/client/screenshots/`, then quits. Development only; it is left out of the jar. |
+| `scripts/server-smoke-test.sh <version> <loader>` | Starts that workspace's dev server and places every decoration. |
 | `python tools/preview_models.py out.png <model>...` | Renders models to an isometric preview sheet without starting Minecraft. |
 | `python tools/make_logo.py [--sheets]` | Rebuilds the mod-list logo from real renders; `--sheets` also writes `docs/catalog_*.png`. |
 
-Requires Java 17 (Minecraft 1.20.1's runtime) and Python 3.8+ for the asset tools (no extra packages).
+Python 3.8+ runs the asset tools (no extra packages).
 For previews of models that borrow vanilla textures, set `CL_VANILLA` to the
 `assets/minecraft` folder of an extracted 1.20.1 client jar.
 
@@ -42,6 +80,18 @@ For previews of models that borrow vanilla textures, set `CL_VANILLA` to the
 (geometry, variants, behaviour, recipe). The generator writes all resources and the
 Java catalog the mod registers its blocks from, so adding a decoration never means
 editing Java and JSON by hand in several places.
+
+## Releasing
+
+CI (`.github/workflows/ci.yml`) builds all 8 jars on every push to `main`, runs the GameTests, boots a Forge server
+with the built jar, starts a dev server for every target that places every decoration, and launches a 1.20.1 Forge
+client that screenshots the showcase world. Publishing to Modrinth and CurseForge is
+`.github/workflows/publish.yml`, run by hand (`version`, `dry_run`) or by a `v*.*.*` tag; it never runs on a plain
+push. It refuses a second release of the mod on the same day (Africa/Tunis), takes the jars from `releases/`, the
+GitHub Release or a build from source, and fails unless exactly the 8 jars are found. It needs the secrets
+`MODRINTH_TOKEN`, `CURSEFORGE_TOKEN`, `CURSEFORGE_API_KEY` and the variables `MODRINTH_ID`, `CURSEFORGE_ID`; until
+both variables are set it stops before building, dry runs included. `release/1.0.0/` keeps the notes of the
+original Forge-only 1.0.0 build.
 
 ---
 
@@ -171,7 +221,8 @@ multiplayer and survive death. In creative mode the book can hand decorations ou
 ## Technical notes
 
 - **Rendering:** every decoration is a static baked model (cut-out or translucent via
-  the model's `render_type`), with face culling against neighbours. There are no block
+  the model's `render_type` on Forge/NeoForge, the block's render layer on Fabric 1.20.1/1.21.1, and the texture's
+  transparency on 26.x), with face culling against neighbours. There are no block
   entity renderers; clock hands, pictures and sign designs are multipart overlays,
   and tables and blankets connect through multipart. Ambient particles and sounds are
   client-side only and can be turned off.
@@ -180,7 +231,7 @@ multiplayer and survive death. In creative mode the book can hand decorations ou
 - **Multiplayer:** all state lives on the server. The book receives a player's collection
   in one packet when opened; creative delivery is validated server-side and only hands
   out the mod's own items.
-- **Tests:** `CottageGameTests` places every decoration on its support, checks every
+- **Tests:** `CottageGameTests` (1.20.1 Forge) places every decoration on its support, checks every
   block state has a hit box, and plays through stacking, lighting, mounting, turning,
   clocks, seasons, storage, tables and cloths, curtains, blankets, fountains, the fairy
   door, recipes, loot tables and collection tracking.
@@ -195,8 +246,19 @@ tools/clgen/interior.py         interior families
 tools/clgen/garden.py           garden families
 tools/clgen/seasonal.py         seasonal families
 tools/clgen/data.py             models, blockstates, loot, recipes, tags, lang, DecorCatalog.java
-src/main/java/.../catalog       DecorFamily, sets, seasons, enums; DecorCatalog (generated)
-src/main/java/.../block         DecorBlock and its storage, clock, seasonal, curtain, table and blanket variants
-src/main/java/.../collection    collection tracking
-src/main/java/.../client        collection book screen, water tint
+tools/port_data.py              copies the generated data into the 1.21.1, 26.2 and 26.3 workspaces
+<version>/common/.../catalog    DecorFamily, sets, seasons, enums; DecorCatalog (generated)
+<version>/common/.../block      DecorBlock and its storage, clock, seasonal, curtain, table and blanket variants
+<version>/common/.../collection collection tracking
+<version>/common/.../client     collection book screen, water tint
+<version>/common/.../platform   loader services (registries, networking, config folder)
+<version>/{fabric,forge,neoforge}  entry points, events, creative tab, client setup
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Security
+
+See [.github/SECURITY.md](.github/SECURITY.md).

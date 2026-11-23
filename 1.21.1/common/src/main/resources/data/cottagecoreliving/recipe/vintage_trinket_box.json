@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "trinket_box",
+  "ingredients": [
+    {
+      "tag": "minecraft:wooden_slabs"
+    },
+    {
+      "tag": "minecraft:wooden_slabs"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "tag": "cottagecoreliving:sets/vintage"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_trinket_box"
+  }
+}

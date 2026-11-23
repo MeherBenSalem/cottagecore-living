@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wind_chime",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "tag": "cottagecoreliving:sets/vintage"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_wind_chime"
+  }
+}

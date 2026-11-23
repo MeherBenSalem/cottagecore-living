@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sign_design_3": "cottagecoreliving:block/sign_design_3",
+    "particle": "cottagecoreliving:block/sign_design_3"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        8,
+        6.9
+      ],
+      "to": [
+        14,
+        14,
+        6.9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            5,
+            14,
+            11
+          ],
+          "texture": "#sign_design_3"
+        },
+        "south": {
+          "uv": [
+            2,
+            5,
+            14,
+            11
+          ],
+          "texture": "#sign_design_3"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cottagecoreliving:block/lavender_wall_plates/base"
+    },
+    "facing=east": {
+      "model": "cottagecoreliving:block/lavender_wall_plates/base",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cottagecoreliving:block/lavender_wall_plates/base",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cottagecoreliving:block/lavender_wall_plates/base",
+      "y": 270
+    }
+  }
+}

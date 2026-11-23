@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "candle_jar",
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "tag": "cottagecoreliving:sets/strawberry"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_candle_jar"
+  }
+}

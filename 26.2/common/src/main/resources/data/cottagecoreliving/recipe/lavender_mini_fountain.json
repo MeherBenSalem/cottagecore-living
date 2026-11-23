@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mini_fountain",
+  "ingredients": [
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:water_bucket",
+    "#cottagecoreliving:sets/lavender"
+  ],
+  "result": {
+    "id": "cottagecoreliving:lavender_mini_fountain"
+  }
+}

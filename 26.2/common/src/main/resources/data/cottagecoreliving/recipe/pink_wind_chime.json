@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wind_chime",
+  "ingredients": [
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:string",
+    "#cottagecoreliving:sets/pink"
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_wind_chime"
+  }
+}

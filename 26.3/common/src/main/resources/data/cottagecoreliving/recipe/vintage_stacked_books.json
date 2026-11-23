@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stacked_books",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:book",
+    "#cottagecoreliving:sets/vintage"
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_stacked_books"
+  }
+}

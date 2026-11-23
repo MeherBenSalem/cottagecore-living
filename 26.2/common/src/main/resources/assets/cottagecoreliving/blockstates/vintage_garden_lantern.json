@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=north,mount=floor,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor"
+    },
+    "facing=north,mount=floor,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_low"
+    },
+    "facing=north,mount=floor,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_lit"
+    },
+    "facing=north,mount=floor,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_lit_low"
+    },
+    "facing=north,mount=ceiling,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling"
+    },
+    "facing=north,mount=ceiling,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling"
+    },
+    "facing=north,mount=ceiling,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling_lit"
+    },
+    "facing=north,mount=ceiling,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling_lit"
+    },
+    "facing=east,mount=floor,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor",
+      "y": 90
+    },
+    "facing=east,mount=floor,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_low",
+      "y": 90
+    },
+    "facing=east,mount=floor,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_lit",
+      "y": 90
+    },
+    "facing=east,mount=floor,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_lit_low",
+      "y": 90
+    },
+    "facing=east,mount=ceiling,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling",
+      "y": 90
+    },
+    "facing=east,mount=ceiling,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling",
+      "y": 90
+    },
+    "facing=east,mount=ceiling,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling_lit",
+      "y": 90
+    },
+    "facing=east,mount=ceiling,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling_lit",
+      "y": 90
+    },
+    "facing=south,mount=floor,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor",
+      "y": 180
+    },
+    "facing=south,mount=floor,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_low",
+      "y": 180
+    },
+    "facing=south,mount=floor,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_lit",
+      "y": 180
+    },
+    "facing=south,mount=floor,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_lit_low",
+      "y": 180
+    },
+    "facing=south,mount=ceiling,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling",
+      "y": 180
+    },
+    "facing=south,mount=ceiling,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling",
+      "y": 180
+    },
+    "facing=south,mount=ceiling,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling_lit",
+      "y": 180
+    },
+    "facing=south,mount=ceiling,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling_lit",
+      "y": 180
+    },
+    "facing=west,mount=floor,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor",
+      "y": 270
+    },
+    "facing=west,mount=floor,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_low",
+      "y": 270
+    },
+    "facing=west,mount=floor,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_lit",
+      "y": 270
+    },
+    "facing=west,mount=floor,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/floor_lit_low",
+      "y": 270
+    },
+    "facing=west,mount=ceiling,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling",
+      "y": 270
+    },
+    "facing=west,mount=ceiling,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling",
+      "y": 270
+    },
+    "facing=west,mount=ceiling,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling_lit",
+      "y": 270
+    },
+    "facing=west,mount=ceiling,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_garden_lantern/ceiling_lit",
+      "y": 270
+    }
+  }
+}

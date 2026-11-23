@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "garden_gloves",
+  "ingredients": [
+    "minecraft:leather",
+    "minecraft:string",
+    "#cottagecoreliving:sets/pink"
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_garden_gloves"
+  }
+}

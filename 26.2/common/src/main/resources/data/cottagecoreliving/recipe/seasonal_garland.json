@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "seasonal_garland",
+  "ingredients": [
+    "minecraft:vine",
+    "minecraft:vine",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "cottagecoreliving:seasonal_garland"
+  }
+}

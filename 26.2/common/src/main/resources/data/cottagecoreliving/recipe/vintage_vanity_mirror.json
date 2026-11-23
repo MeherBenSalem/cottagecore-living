@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "vanity_mirror",
+  "ingredients": [
+    "minecraft:glass_pane",
+    "minecraft:iron_nugget",
+    "minecraft:stick",
+    "#cottagecoreliving:sets/vintage"
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_vanity_mirror"
+  }
+}

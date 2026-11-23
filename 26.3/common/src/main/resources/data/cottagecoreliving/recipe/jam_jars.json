@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "jam_jars",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:sweet_berries",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "cottagecoreliving:jam_jars"
+  }
+}

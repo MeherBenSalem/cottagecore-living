@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "picnic_basket",
+  "ingredients": [
+    "cottagecoreliving:wicker_basket",
+    "minecraft:bread",
+    "minecraft:apple"
+  ],
+  "result": {
+    "id": "cottagecoreliving:picnic_basket"
+  }
+}

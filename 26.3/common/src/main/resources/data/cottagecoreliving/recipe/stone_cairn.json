@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stone_cairn",
+  "ingredients": [
+    "minecraft:cobblestone",
+    "minecraft:cobblestone",
+    "minecraft:cobblestone",
+    "minecraft:flint"
+  ],
+  "result": {
+    "id": "cottagecoreliving:stone_cairn"
+  }
+}

@@ -10,7 +10,7 @@ from .fam import FAMILIES, Ctx, Family
 from .paint import PAL, SETS, SET_JAVA, SET_NAMES
 
 M = MODID + ":"
-JAVA_OUT = Path(__file__).resolve().parents[2] / "src" / "main" / "java" / "com" / "sugarplumstudios" / "cottagecore" / "catalog" / "DecorCatalog.java"
+JAVA_OUT = Path(__file__).resolve().parents[2] / "1.20.1" / "common" / "src" / "main" / "java" / "com" / "sugarplumstudios" / "cottagecore" / "catalog" / "DecorCatalog.java"
 
 FACING_Y = {"north": 0, "east": 90, "south": 180, "west": 270}
 WATER = "minecraft:block/water_still"

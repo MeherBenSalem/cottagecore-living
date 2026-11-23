@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "fairy_door",
+  "ingredients": [
+    "#minecraft:wooden_doors",
+    "#cottagecoreliving:sets/fairy"
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_fairy_door"
+  }
+}

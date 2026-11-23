@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "book_row",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "tag": "cottagecoreliving:sets/pink"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_book_row"
+  }
+}

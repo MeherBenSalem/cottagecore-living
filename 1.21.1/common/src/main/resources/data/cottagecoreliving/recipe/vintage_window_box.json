@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "window_box",
+  "ingredients": [
+    {
+      "tag": "minecraft:wooden_slabs"
+    },
+    {
+      "item": "minecraft:flower_pot"
+    },
+    {
+      "tag": "cottagecoreliving:sets/vintage"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_window_box"
+  }
+}

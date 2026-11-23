@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "blossom_wreath",
+  "ingredients": [
+    "minecraft:cherry_leaves",
+    "minecraft:cherry_leaves",
+    "minecraft:cherry_leaves",
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "cottagecoreliving:blossom_wreath"
+  }
+}

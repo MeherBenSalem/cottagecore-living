@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cottagecoreliving:block/strawberry_embroidery_hoop/base"
+    },
+    "facing=east": {
+      "model": "cottagecoreliving:block/strawberry_embroidery_hoop/base",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cottagecoreliving:block/strawberry_embroidery_hoop/base",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cottagecoreliving:block/strawberry_embroidery_hoop/base",
+      "y": 270
+    }
+  }
+}

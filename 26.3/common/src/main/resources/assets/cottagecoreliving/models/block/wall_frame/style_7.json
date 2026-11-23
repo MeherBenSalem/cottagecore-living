@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "picture_7": "cottagecoreliving:block/picture_7",
+    "particle": "cottagecoreliving:block/picture_7"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        4,
+        15.4
+      ],
+      "to": [
+        13,
+        12,
+        15.4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            1.6,
+            16,
+            14.4
+          ],
+          "texture": "#picture_7"
+        },
+        "south": {
+          "uv": [
+            0,
+            1.6,
+            16,
+            14.4
+          ],
+          "texture": "#picture_7"
+        }
+      }
+    }
+  ]
+}

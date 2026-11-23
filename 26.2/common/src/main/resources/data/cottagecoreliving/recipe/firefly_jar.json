@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "firefly_jar",
+  "ingredients": [
+    "minecraft:glass",
+    "minecraft:glow_berries",
+    "minecraft:glowstone_dust"
+  ],
+  "result": {
+    "id": "cottagecoreliving:firefly_jar"
+  }
+}

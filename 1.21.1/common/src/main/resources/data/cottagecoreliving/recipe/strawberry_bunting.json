@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bunting",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "cottagecoreliving:sets/strawberry"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "cottagecoreliving:strawberry_bunting"
+  }
+}

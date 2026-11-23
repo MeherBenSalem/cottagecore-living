@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "toadstools",
+  "ingredients": [
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "#cottagecoreliving:sets/pink"
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_toadstools"
+  }
+}

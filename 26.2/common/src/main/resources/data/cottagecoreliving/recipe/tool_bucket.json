@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tool_bucket",
+  "ingredients": [
+    "minecraft:bucket",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:iron_nugget"
+  ],
+  "result": {
+    "id": "cottagecoreliving:tool_bucket"
+  }
+}

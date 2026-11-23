@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "watering_can",
+  "ingredients": [
+    "minecraft:bucket",
+    "minecraft:iron_nugget",
+    "#cottagecoreliving:sets/strawberry"
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_watering_can"
+  }
+}

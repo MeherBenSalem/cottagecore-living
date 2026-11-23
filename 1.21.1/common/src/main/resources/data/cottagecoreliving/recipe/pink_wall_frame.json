@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wall_frame",
+  "ingredients": [
+    {
+      "item": "minecraft:painting"
+    },
+    {
+      "tag": "cottagecoreliving:sets/pink"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_wall_frame"
+  }
+}

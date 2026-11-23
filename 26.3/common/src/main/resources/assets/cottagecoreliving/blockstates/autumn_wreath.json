@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cottagecoreliving:block/autumn_wreath/base"
+    },
+    "facing=east": {
+      "model": "cottagecoreliving:block/autumn_wreath/base",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cottagecoreliving:block/autumn_wreath/base",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cottagecoreliving:block/autumn_wreath/base",
+      "y": 270
+    }
+  }
+}

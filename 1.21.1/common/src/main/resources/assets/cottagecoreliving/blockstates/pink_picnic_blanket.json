@@ -1,0 +1,44 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "cottagecoreliving:block/pink_picnic_blanket/sheet"
+      }
+    },
+    {
+      "when": {
+        "north": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/pink_picnic_blanket/border"
+      }
+    },
+    {
+      "when": {
+        "east": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/pink_picnic_blanket/border",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/pink_picnic_blanket/border",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/pink_picnic_blanket/border",
+        "y": 270
+      }
+    }
+  ]
+}

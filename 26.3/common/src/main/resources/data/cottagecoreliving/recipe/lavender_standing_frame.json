@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "standing_frame",
+  "ingredients": [
+    "minecraft:painting",
+    "minecraft:stick",
+    "#cottagecoreliving:sets/lavender"
+  ],
+  "result": {
+    "id": "cottagecoreliving:lavender_standing_frame"
+  }
+}

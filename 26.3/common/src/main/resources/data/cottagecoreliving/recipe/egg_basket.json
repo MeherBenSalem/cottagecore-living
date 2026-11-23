@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "egg_basket",
+  "ingredients": [
+    "cottagecoreliving:wicker_basket",
+    "minecraft:egg",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "id": "cottagecoreliving:egg_basket"
+  }
+}

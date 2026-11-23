@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stepping_stones",
+  "ingredients": [
+    {
+      "item": "minecraft:sandstone_slab"
+    },
+    {
+      "item": "minecraft:sandstone_slab"
+    },
+    {
+      "item": "minecraft:sandstone_slab"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "cottagecoreliving:sandstone_stepping_stones"
+  }
+}

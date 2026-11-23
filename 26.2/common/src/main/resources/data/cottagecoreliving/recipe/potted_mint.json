@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "potted_herbs",
+  "ingredients": [
+    "minecraft:flower_pot",
+    "minecraft:wheat_seeds",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "id": "cottagecoreliving:potted_mint"
+  }
+}

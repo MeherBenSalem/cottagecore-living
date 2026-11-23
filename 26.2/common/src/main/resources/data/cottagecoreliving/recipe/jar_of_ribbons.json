@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mason_jar",
+  "ingredients": [
+    "minecraft:glass",
+    "minecraft:string",
+    "minecraft:pink_dye"
+  ],
+  "result": {
+    "id": "cottagecoreliving:jar_of_ribbons"
+  }
+}

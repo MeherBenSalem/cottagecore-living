@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "candle_sconce",
+  "ingredients": [
+    "minecraft:candle",
+    "minecraft:iron_nugget",
+    "minecraft:gold_nugget",
+    "#cottagecoreliving:sets/lavender"
+  ],
+  "result": {
+    "id": "cottagecoreliving:lavender_candle_sconce"
+  }
+}

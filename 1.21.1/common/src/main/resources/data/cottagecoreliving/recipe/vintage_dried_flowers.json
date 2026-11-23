@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dried_flowers",
+  "ingredients": [
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "tag": "cottagecoreliving:sets/vintage"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_dried_flowers"
+  }
+}

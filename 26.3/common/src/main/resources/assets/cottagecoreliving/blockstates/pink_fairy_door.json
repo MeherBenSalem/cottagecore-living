@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "cottagecoreliving:block/pink_fairy_door/base"
+    },
+    "facing=north,open=true": {
+      "model": "cottagecoreliving:block/pink_fairy_door/open"
+    },
+    "facing=east,open=false": {
+      "model": "cottagecoreliving:block/pink_fairy_door/base",
+      "y": 90
+    },
+    "facing=east,open=true": {
+      "model": "cottagecoreliving:block/pink_fairy_door/open",
+      "y": 90
+    },
+    "facing=south,open=false": {
+      "model": "cottagecoreliving:block/pink_fairy_door/base",
+      "y": 180
+    },
+    "facing=south,open=true": {
+      "model": "cottagecoreliving:block/pink_fairy_door/open",
+      "y": 180
+    },
+    "facing=west,open=false": {
+      "model": "cottagecoreliving:block/pink_fairy_door/base",
+      "y": 270
+    },
+    "facing=west,open=true": {
+      "model": "cottagecoreliving:block/pink_fairy_door/open",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "clock_hands_4": "cottagecoreliving:block/clock_hands_4",
+    "particle": "cottagecoreliving:block/clock_hands_4"
+  },
+  "elements": [
+    {
+      "from": [
+        5.25,
+        6.25,
+        10.4
+      ],
+      "to": [
+        10.75,
+        11.75,
+        10.4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#clock_hands_4"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#clock_hands_4"
+        }
+      }
+    }
+  ]
+}

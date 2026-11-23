@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cottagecoreliving:block/pink_bunting/base"
+    },
+    "facing=east": {
+      "model": "cottagecoreliving:block/pink_bunting/base",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cottagecoreliving:block/pink_bunting/base",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cottagecoreliving:block/pink_bunting/base",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "candlestick",
+  "ingredients": [
+    "minecraft:candle",
+    "minecraft:gold_nugget",
+    "minecraft:gold_nugget",
+    "#cottagecoreliving:sets/fairy"
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_candlestick"
+  }
+}

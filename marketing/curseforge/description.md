@@ -210,6 +210,13 @@ The set ingredients are item tags (`cottagecoreliving:sets/<set>`), so a data pa
 | Minecraft | Loader | Java | Also install |
 | --- | --- | --- | --- |
 | 1.20.1 | Forge 47 or newer | 17+ | Nothing |
+| 1.20.1 | Fabric | 17+ | Fabric API |
+| 1.21.1 | NeoForge | 21+ | Nothing |
+| 1.21.1 | Fabric | 21+ | Fabric API |
+| 26.2 | NeoForge | 25+ | Nothing |
+| 26.2 | Fabric | 25+ | Fabric API |
+| 26.3 | NeoForge | 25+ | Nothing |
+| 26.3 | Fabric | 25+ | Fabric API |
 
 - Install Cottagecore Living on **both the server and every client**.
 - Cottagecore Living is a mod. It does not work as a Paper, Spigot or Folia plugin.
@@ -217,7 +224,7 @@ The set ingredients are item tags (`cottagecoreliving:sets/<set>`), so a data pa
 ![Questions](https://raw.githubusercontent.com/MeherBenSalem/cottagecore-living/main/marketing/images/header-faq.png)
 
 **Does it need any other mods?**
-No. Cottagecore Living needs only Forge.
+On Forge and NeoForge, no. On Fabric it needs only Fabric API.
 
 **Does it change vanilla blocks?**
 No. Every decoration is a new block of its own; vanilla blocks are left alone.
@@ -235,7 +242,7 @@ In creative mode, the Collection Book hands out one, a stack or a whole set. In 
 It's saved with your player on each world or server, and it survives death.
 
 **Is there a Fabric or NeoForge version?**
-Not yet. Cottagecore Living runs on Forge for Minecraft 1.20.1.
+Yes. Cottagecore Living runs on Fabric and Forge for Minecraft 1.20.1, and on Fabric and NeoForge for Minecraft 1.21.1, 26.2 and 26.3. Pick the file that matches both your Minecraft version and your loader.
 
 ![Gallery](https://raw.githubusercontent.com/MeherBenSalem/cottagecore-living/main/marketing/images/header-gallery.png)
 

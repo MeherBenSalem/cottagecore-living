@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stepping_stones",
+  "ingredients": [
+    {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "cottagecoreliving:stepping_stones"
+  }
+}

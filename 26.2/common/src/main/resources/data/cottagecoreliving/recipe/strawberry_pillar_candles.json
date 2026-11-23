@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "pillar_candles",
+  "ingredients": [
+    "minecraft:candle",
+    "minecraft:honeycomb",
+    "#cottagecoreliving:sets/strawberry"
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_pillar_candles"
+  }
+}

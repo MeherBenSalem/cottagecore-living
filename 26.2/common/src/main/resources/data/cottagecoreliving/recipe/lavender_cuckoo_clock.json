@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cuckoo_clock",
+  "ingredients": [
+    "minecraft:clock",
+    "minecraft:feather",
+    "#minecraft:planks",
+    "#cottagecoreliving:sets/lavender"
+  ],
+  "result": {
+    "id": "cottagecoreliving:lavender_cuckoo_clock"
+  }
+}

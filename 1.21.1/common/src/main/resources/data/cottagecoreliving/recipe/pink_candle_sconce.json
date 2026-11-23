@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "candle_sconce",
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "tag": "cottagecoreliving:sets/pink"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_candle_sconce"
+  }
+}

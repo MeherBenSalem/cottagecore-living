@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cottagecoreliving:block/blossom_garland/base"
+    },
+    "facing=east": {
+      "model": "cottagecoreliving:block/blossom_garland/base",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cottagecoreliving:block/blossom_garland/base",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cottagecoreliving:block/blossom_garland/base",
+      "y": 270
+    }
+  }
+}

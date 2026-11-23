@@ -1,0 +1,976 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sets_strawberry_print": "cottagecoreliving:block/sets/strawberry/print",
+    "sets_strawberry_fabric": "cottagecoreliving:block/sets/strawberry/fabric",
+    "particle": "cottagecoreliving:block/sets/strawberry/print"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        5
+      ],
+      "to": [
+        6.5,
+        1,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            15,
+            13,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            3,
+            15,
+            6.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            7,
+            15,
+            11,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            5,
+            15,
+            9,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            3,
+            5,
+            6.5,
+            9
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            3,
+            7,
+            6.5,
+            11
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        2.75,
+        0,
+        9
+      ],
+      "to": [
+        6.75,
+        1.25,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.25,
+            14.75,
+            13.25,
+            16
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "south": {
+          "uv": [
+            2.75,
+            14.75,
+            6.75,
+            16
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "east": {
+          "uv": [
+            5,
+            14.75,
+            7,
+            16
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "west": {
+          "uv": [
+            9,
+            14.75,
+            11,
+            16
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "up": {
+          "uv": [
+            2.75,
+            9,
+            6.75,
+            11
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "down": {
+          "uv": [
+            2.75,
+            5,
+            6.75,
+            7
+          ],
+          "texture": "#sets_strawberry_fabric",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        3.75,
+        0.75,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            15.25,
+            13,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            3,
+            15.25,
+            3.75,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            11,
+            15.25,
+            13,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            3,
+            15.25,
+            5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            3,
+            3,
+            3.75,
+            5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            3,
+            11,
+            3.75,
+            13
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        3.9,
+        0,
+        2.5
+      ],
+      "to": [
+        4.65,
+        0.75,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.35,
+            15.25,
+            12.1,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            3.9,
+            15.25,
+            4.65,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            11,
+            15.25,
+            13.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            15.25,
+            5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            3.9,
+            2.5,
+            4.65,
+            5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            3.9,
+            11,
+            4.65,
+            13.5
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        4.8,
+        0,
+        2.5
+      ],
+      "to": [
+        5.55,
+        0.75,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.45,
+            15.25,
+            11.2,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            4.8,
+            15.25,
+            5.55,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            11,
+            15.25,
+            13.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            15.25,
+            5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            4.8,
+            2.5,
+            5.55,
+            5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            4.8,
+            11,
+            5.55,
+            13.5
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        5.7,
+        0,
+        3
+      ],
+      "to": [
+        6.45,
+        0.75,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.55,
+            15.25,
+            10.3,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            5.7,
+            15.25,
+            6.45,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            11,
+            15.25,
+            13,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            3,
+            15.25,
+            5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            5.7,
+            3,
+            6.45,
+            5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            5.7,
+            11,
+            6.45,
+            13
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        0,
+        6
+      ],
+      "to": [
+        7.75,
+        0.75,
+        7.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            15.25,
+            9.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            15.25,
+            7.75,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            15.25,
+            10,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            6,
+            15.25,
+            7.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            6,
+            7.75,
+            7.5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            6.5,
+            8.5,
+            7.75,
+            10
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        8.5,
+        0,
+        6.5
+      ],
+      "to": [
+        12,
+        1,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            15,
+            7.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            15,
+            12,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            15,
+            9.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            15,
+            10.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            6.5,
+            12,
+            10.5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            5.5,
+            12,
+            9.5
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        8.25,
+        0,
+        10.5
+      ],
+      "to": [
+        12.25,
+        1.25,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.75,
+            14.75,
+            7.75,
+            16
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            14.75,
+            12.25,
+            16
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            14.75,
+            5.5,
+            16
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            14.75,
+            12.5,
+            16
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            10.5,
+            12.25,
+            12.5
+          ],
+          "texture": "#sets_strawberry_fabric"
+        },
+        "down": {
+          "uv": [
+            8.25,
+            3.5,
+            12.25,
+            5.5
+          ],
+          "texture": "#sets_strawberry_fabric",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        8.5,
+        0,
+        4.5
+      ],
+      "to": [
+        9.25,
+        0.75,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.75,
+            15.25,
+            7.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            15.25,
+            9.25,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            15.25,
+            11.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            15.25,
+            6.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            4.5,
+            9.25,
+            6.5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            9.5,
+            9.25,
+            11.5
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        9.4,
+        0,
+        4
+      ],
+      "to": [
+        10.15,
+        0.75,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.85,
+            15.25,
+            6.6,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            9.4,
+            15.25,
+            10.15,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            15.25,
+            12,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            4,
+            15.25,
+            6.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            9.4,
+            4,
+            10.15,
+            6.5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            9.4,
+            9.5,
+            10.15,
+            12
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        10.3,
+        0,
+        4
+      ],
+      "to": [
+        11.05,
+        0.75,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.95,
+            15.25,
+            5.7,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            10.3,
+            15.25,
+            11.05,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            15.25,
+            12,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            4,
+            15.25,
+            6.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            10.3,
+            4,
+            11.05,
+            6.5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            10.3,
+            9.5,
+            11.05,
+            12
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        11.2,
+        0,
+        4.5
+      ],
+      "to": [
+        11.95,
+        0.75,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.05,
+            15.25,
+            4.8,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            11.2,
+            15.25,
+            11.95,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            15.25,
+            11.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            15.25,
+            6.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            11.2,
+            4.5,
+            11.95,
+            6.5
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            11.2,
+            9.5,
+            11.95,
+            11.5
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        12,
+        0,
+        7.5
+      ],
+      "to": [
+        13.25,
+        0.75,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.75,
+            15.25,
+            4,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "south": {
+          "uv": [
+            12,
+            15.25,
+            13.25,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "east": {
+          "uv": [
+            7,
+            15.25,
+            8.5,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            15.25,
+            9,
+            16
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "up": {
+          "uv": [
+            12,
+            7.5,
+            13.25,
+            9
+          ],
+          "texture": "#sets_strawberry_print"
+        },
+        "down": {
+          "uv": [
+            12,
+            7,
+            13.25,
+            8.5
+          ],
+          "texture": "#sets_strawberry_print",
+          "cullface": "down"
+        }
+      }
+    }
+  ]
+}

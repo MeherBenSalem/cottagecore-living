@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "candle_jar",
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "tag": "cottagecoreliving:sets/fairy"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_candle_jar"
+  }
+}

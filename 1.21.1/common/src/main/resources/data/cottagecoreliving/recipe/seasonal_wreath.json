@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "seasonal_wreath",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "minecraft:vine"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:seasonal_wreath"
+  }
+}

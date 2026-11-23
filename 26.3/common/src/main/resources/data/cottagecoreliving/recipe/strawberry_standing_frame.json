@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "standing_frame",
+  "ingredients": [
+    "minecraft:painting",
+    "minecraft:stick",
+    "#cottagecoreliving:sets/strawberry"
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_standing_frame"
+  }
+}

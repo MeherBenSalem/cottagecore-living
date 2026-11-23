@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "garden_lantern",
+  "ingredients": [
+    "minecraft:lantern",
+    "#cottagecoreliving:sets/fairy"
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_garden_lantern"
+  }
+}

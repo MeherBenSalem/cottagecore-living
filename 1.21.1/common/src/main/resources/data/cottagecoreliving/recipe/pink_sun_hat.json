@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sun_hat",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "cottagecoreliving:sets/pink"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_sun_hat"
+  }
+}

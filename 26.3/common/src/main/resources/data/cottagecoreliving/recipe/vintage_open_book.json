@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "open_book",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:paper",
+    "#cottagecoreliving:sets/vintage"
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_open_book"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "book_row",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "tag": "cottagecoreliving:sets/fairy"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_book_row"
+  }
+}

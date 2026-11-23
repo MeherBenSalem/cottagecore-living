@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:oak_cottage_table"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:strawberry_tablecloth"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "cottagecoreliving:oak_cottage_table",
+        "state": {
+          "cloth": "strawberry"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:lavender_tablecloth"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "cottagecoreliving:oak_cottage_table",
+        "state": {
+          "cloth": "lavender"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:pink_tablecloth"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "cottagecoreliving:oak_cottage_table",
+        "state": {
+          "cloth": "pink"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:fairy_tablecloth"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "cottagecoreliving:oak_cottage_table",
+        "state": {
+          "cloth": "fairy"
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:vintage_tablecloth"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "cottagecoreliving:oak_cottage_table",
+        "state": {
+          "cloth": "vintage"
+        }
+      }
+    }
+  ],
+  "random_sequence": "cottagecoreliving:blocks/oak_cottage_table"
+}

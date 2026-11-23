@@ -19,16 +19,16 @@ Both descriptions lead with the pitch, then the collection, the five sets, inter
 ### Modrinth project settings
 
 - **Environment:** required on the client and on the server.
-- **Loader and version:** Forge, Minecraft 1.20.1.
+- **Loaders and versions:** Fabric and Forge for Minecraft 1.20.1; Fabric and NeoForge for 1.21.1, 26.2 and 26.3. Fabric files need Fabric API (a required dependency).
 - **Gallery:** upload `images/screenshots/*.jpg` with the captions used in the CurseForge gallery (the alt texts at the end of `curseforge/description.md`), and `images/banner.png` as the featured image.
 
 ## Adding a Minecraft version
 
 The supported versions are listed in these places:
 
-1. `VERSIONS` at the top of [`source/render.cjs`](source/render.cjs). Add one line, for example `{ minecraft: '1.21.1', loaders: ['NeoForge'] },`. The banner's loader pills and version line are built from it. Then rerun the script for `banner`.
-2. The table under **Downloads & Compatibility** in `curseforge/description.md` and `modrinth/description.md`. Add one row per loader.
-3. The FAQ answer **Is there a Fabric or NeoForge version?** in both files.
+1. `VERSIONS` at the top of [`source/render.cjs`](source/render.cjs). Add one line, for example `{ minecraft: '26.4', loaders: ['Fabric', 'NeoForge'] },`. The banner's loader pills and version line are built from it. Then rerun the script for `banner`.
+2. The table under **Downloads & Compatibility** in `curseforge/description.md`. Add one row per loader, then regenerate `modrinth/` with `python3 tools/make_modrinth_md.py`.
+3. The FAQ answer **Is there a Fabric or NeoForge version?** in `curseforge/description.md` (and `modrinth/` regenerated).
 
 No other copy or artwork names a Minecraft version. A new release number goes in `RELEASE` in `render.cjs` and in the banner's alt text on the first line of both descriptions.
 
@@ -36,7 +36,7 @@ No other copy or artwork names a Minecraft version. A new release number goes in
 
 | File | Size | Use |
 | --- | --- | --- |
-| `images/banner.png` | 1800×600, 855 KB | Description header: the strawberry parlour, the title, "The little details.", the loader pill and version line |
+| `images/banner.png` | 1800×600, 855 KB | Description header: the strawberry parlour, the title, "The little details.", the loader pills and version line |
 | `images/icon.png` | 512×512, 136 KB | Project avatar: the Strawberry Cottage teapot in a red gingham ring |
 | `images/card-collection.png` | 1600×900, 608 KB | Fifteen decorations from all three collections; 285 decorations, 84 kinds, 5 sets, 5 tablecloths |
 | `images/card-sets.png` | 1600×900, 564 KB | The five sets, each with its teapot, flower vase, cuckoo clock, birdhouse, garden lantern, gnome and toadstools |
@@ -53,7 +53,7 @@ No other copy or artwork names a Minecraft version. A new release number goes in
 
 ### Where the pictures come from
 
-- **Screenshots** are the unedited captures in `docs/screenshots/`, converted to JPEG. They were taken by the showcase harness (`./gradlew runClient -Pshowcase`, `dev/ShowcaseHarness.java`): a flat creative world in Peaceful, 1280×720, HUD hidden. The harness builds the parlour, garden, seasons corner, wall and set lineup itself, so every block in them is placed by the mod's own code.
+- **Screenshots** are the unedited captures in `docs/screenshots/`, converted to JPEG. They were taken by the showcase harness (`cd 1.20.1 && ./gradlew :forge:runClient -Pshowcase`, `1.20.1/forge/.../dev/ShowcaseHarness.java`): a flat creative world in Peaceful, 1280×720, HUD hidden. The harness builds the parlour, garden, seasons corner, wall and set lineup itself, so every block in them is placed by the mod's own code.
 - **Decoration renders** on the cards, banner and icon are isometric renders of the mod's own generated models and textures, made without Minecraft by [`source/renders.py`](source/renders.py) (which uses `tools/preview_models.py`). They are in `source/renders/`, one PNG per item plus each season of the seasonal pieces, the lit garden lanterns, the open picnic basket and the open fairy door.
 
 The screenshots are smaller than the 1920×1080 captures of the sibling kits and show a flat world. New captures in a generated world at 1920×1080 would make the gallery and the interior and placing cards stronger: retake them, drop them into `images/screenshots/` under the same names, and adjust the `region()` crops in `render.cjs`, which are pixel regions of the 1280×720 captures.

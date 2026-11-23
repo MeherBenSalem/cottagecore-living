@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cottagecoreliving:lavender_pillar_candles",
+          "modifier": [
+            {
+              "count": 2,
+              "add": false,
+              "type": "minecraft:set_count",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "cottagecoreliving:lavender_pillar_candles",
+                "state": {
+                  "count": "2"
+                }
+              }
+            },
+            {
+              "count": 3,
+              "add": false,
+              "type": "minecraft:set_count",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "cottagecoreliving:lavender_pillar_candles",
+                "state": {
+                  "count": "3"
+                }
+              }
+            },
+            {
+              "type": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
+    }
+  ],
+  "random_sequence": "cottagecoreliving:blocks/lavender_pillar_candles"
+}

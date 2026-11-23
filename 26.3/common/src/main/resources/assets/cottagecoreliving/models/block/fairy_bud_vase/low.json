@@ -1,0 +1,572 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sets_fairy_glaze": "cottagecoreliving:block/sets/fairy/glaze",
+    "sets_fairy_ceramic": "cottagecoreliving:block/sets/fairy/ceramic",
+    "sets_fairy_ribbon": "cottagecoreliving:block/sets/fairy/ribbon",
+    "sets_fairy_bouquet": "cottagecoreliving:block/sets/fairy/bouquet",
+    "particle": "cottagecoreliving:block/sets/fairy/glaze"
+  },
+  "elements": [
+    {
+      "from": [
+        6.25,
+        -15,
+        6.985
+      ],
+      "to": [
+        9.75,
+        -11.5,
+        9.015
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.25,
+            11.5,
+            9.75,
+            15
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "south": {
+          "uv": [
+            6.25,
+            11.5,
+            9.75,
+            15
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "east": {
+          "uv": [
+            6.985,
+            11.5,
+            9.015,
+            15
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "west": {
+          "uv": [
+            6.985,
+            11.5,
+            9.015,
+            15
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "up": {
+          "uv": [
+            6.25,
+            6.985,
+            9.75,
+            9.015
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "down": {
+          "uv": [
+            6.25,
+            6.985,
+            9.75,
+            9.015
+          ],
+          "texture": "#sets_fairy_glaze"
+        }
+      }
+    },
+    {
+      "from": [
+        6.985,
+        -15,
+        6.25
+      ],
+      "to": [
+        9.015,
+        -11.5,
+        9.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.985,
+            11.5,
+            9.015,
+            15
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "south": {
+          "uv": [
+            6.985,
+            11.5,
+            9.015,
+            15
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "east": {
+          "uv": [
+            6.25,
+            11.5,
+            9.75,
+            15
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "west": {
+          "uv": [
+            6.25,
+            11.5,
+            9.75,
+            15
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "up": {
+          "uv": [
+            6.985,
+            6.25,
+            9.015,
+            9.75
+          ],
+          "texture": "#sets_fairy_glaze"
+        },
+        "down": {
+          "uv": [
+            6.985,
+            6.25,
+            9.015,
+            9.75
+          ],
+          "texture": "#sets_fairy_glaze"
+        }
+      }
+    },
+    {
+      "from": [
+        7.25,
+        -11.5,
+        7.565
+      ],
+      "to": [
+        8.75,
+        -9.5,
+        8.435
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.25,
+            9.5,
+            8.75,
+            11.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "south": {
+          "uv": [
+            7.25,
+            9.5,
+            8.75,
+            11.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "east": {
+          "uv": [
+            7.565,
+            9.5,
+            8.435,
+            11.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "west": {
+          "uv": [
+            7.565,
+            9.5,
+            8.435,
+            11.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "up": {
+          "uv": [
+            7.25,
+            7.565,
+            8.75,
+            8.435
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "down": {
+          "uv": [
+            7.25,
+            7.565,
+            8.75,
+            8.435
+          ],
+          "texture": "#sets_fairy_ceramic"
+        }
+      }
+    },
+    {
+      "from": [
+        7.565,
+        -11.5,
+        7.25
+      ],
+      "to": [
+        8.435,
+        -9.5,
+        8.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.565,
+            9.5,
+            8.435,
+            11.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "south": {
+          "uv": [
+            7.565,
+            9.5,
+            8.435,
+            11.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "east": {
+          "uv": [
+            7.25,
+            9.5,
+            8.75,
+            11.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "west": {
+          "uv": [
+            7.25,
+            9.5,
+            8.75,
+            11.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "up": {
+          "uv": [
+            7.565,
+            7.25,
+            8.435,
+            8.75
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "down": {
+          "uv": [
+            7.565,
+            7.25,
+            8.435,
+            8.75
+          ],
+          "texture": "#sets_fairy_ceramic"
+        }
+      }
+    },
+    {
+      "from": [
+        6.9,
+        -9.5,
+        7.362
+      ],
+      "to": [
+        9.1,
+        -9,
+        8.638
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.9,
+            9,
+            9.1,
+            9.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "south": {
+          "uv": [
+            6.9,
+            9,
+            9.1,
+            9.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "east": {
+          "uv": [
+            7.362,
+            9,
+            8.638,
+            9.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "west": {
+          "uv": [
+            7.362,
+            9,
+            8.638,
+            9.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "up": {
+          "uv": [
+            6.9,
+            7.362,
+            9.1,
+            8.638
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "down": {
+          "uv": [
+            6.9,
+            7.362,
+            9.1,
+            8.638
+          ],
+          "texture": "#sets_fairy_ceramic"
+        }
+      }
+    },
+    {
+      "from": [
+        7.362,
+        -9.5,
+        6.9
+      ],
+      "to": [
+        8.638,
+        -9,
+        9.1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.362,
+            9,
+            8.638,
+            9.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "south": {
+          "uv": [
+            7.362,
+            9,
+            8.638,
+            9.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "east": {
+          "uv": [
+            6.9,
+            9,
+            9.1,
+            9.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "west": {
+          "uv": [
+            6.9,
+            9,
+            9.1,
+            9.5
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "up": {
+          "uv": [
+            7.362,
+            6.9,
+            8.638,
+            9.1
+          ],
+          "texture": "#sets_fairy_ceramic"
+        },
+        "down": {
+          "uv": [
+            7.362,
+            6.9,
+            8.638,
+            9.1
+          ],
+          "texture": "#sets_fairy_ceramic"
+        }
+      }
+    },
+    {
+      "from": [
+        7.2,
+        -10.5,
+        7.2
+      ],
+      "to": [
+        8.8,
+        -10,
+        8.8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.2,
+            10,
+            8.8,
+            10.5
+          ],
+          "texture": "#sets_fairy_ribbon"
+        },
+        "south": {
+          "uv": [
+            7.2,
+            10,
+            8.8,
+            10.5
+          ],
+          "texture": "#sets_fairy_ribbon"
+        },
+        "east": {
+          "uv": [
+            7.2,
+            10,
+            8.8,
+            10.5
+          ],
+          "texture": "#sets_fairy_ribbon"
+        },
+        "west": {
+          "uv": [
+            7.2,
+            10,
+            8.8,
+            10.5
+          ],
+          "texture": "#sets_fairy_ribbon"
+        },
+        "up": {
+          "uv": [
+            7.2,
+            7.2,
+            8.8,
+            8.8
+          ],
+          "texture": "#sets_fairy_ribbon"
+        },
+        "down": {
+          "uv": [
+            7.2,
+            7.2,
+            8.8,
+            8.8
+          ],
+          "texture": "#sets_fairy_ribbon"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        -10,
+        8
+      ],
+      "to": [
+        9.5,
+        -0.4,
+        8
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          -5.2,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            0,
+            11,
+            16
+          ],
+          "texture": "#sets_fairy_bouquet"
+        },
+        "south": {
+          "uv": [
+            6,
+            0,
+            11,
+            16
+          ],
+          "texture": "#sets_fairy_bouquet"
+        }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [
+        6.5,
+        -10,
+        8
+      ],
+      "to": [
+        9.5,
+        -0.4,
+        8
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          8,
+          -5.2,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            0,
+            11,
+            16
+          ],
+          "texture": "#sets_fairy_bouquet"
+        },
+        "south": {
+          "uv": [
+            6,
+            0,
+            11,
+            16
+          ],
+          "texture": "#sets_fairy_bouquet"
+        }
+      },
+      "shade_direction_override": "up"
+    }
+  ]
+}

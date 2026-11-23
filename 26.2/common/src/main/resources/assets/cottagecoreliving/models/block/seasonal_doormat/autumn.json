@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "doormat_autumn": "cottagecoreliving:block/doormat_autumn",
+    "particle": "cottagecoreliving:block/doormat_autumn"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        3
+      ],
+      "to": [
+        15,
+        0.75,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            15.25,
+            15,
+            16
+          ],
+          "texture": "#doormat_autumn"
+        },
+        "south": {
+          "uv": [
+            1,
+            15.25,
+            15,
+            16
+          ],
+          "texture": "#doormat_autumn"
+        },
+        "east": {
+          "uv": [
+            3,
+            15.25,
+            13,
+            16
+          ],
+          "texture": "#doormat_autumn"
+        },
+        "west": {
+          "uv": [
+            3,
+            15.25,
+            13,
+            16
+          ],
+          "texture": "#doormat_autumn"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#doormat_autumn"
+        },
+        "down": {
+          "uv": [
+            1,
+            3,
+            15,
+            13
+          ],
+          "texture": "#doormat_autumn",
+          "cullface": "down"
+        }
+      }
+    }
+  ]
+}

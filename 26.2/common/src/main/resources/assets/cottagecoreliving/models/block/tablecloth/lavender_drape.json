@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sets_lavender_print": "cottagecoreliving:block/sets/lavender/print",
+    "lace": "cottagecoreliving:block/lace",
+    "particle": "cottagecoreliving:block/sets/lavender/print"
+  },
+  "elements": [
+    {
+      "from": [
+        -0.1,
+        11,
+        -0.12
+      ],
+      "to": [
+        16.1,
+        16.1,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            10.9,
+            16,
+            16
+          ],
+          "texture": "#sets_lavender_print"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.1,
+        10.1,
+        -0.16
+      ],
+      "to": [
+        16.1,
+        11,
+        -0.06
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            16,
+            16
+          ],
+          "texture": "#lace"
+        }
+      }
+    }
+  ]
+}

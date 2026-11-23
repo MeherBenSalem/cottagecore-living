@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "flower_wheelbarrow",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:small_flowers",
+    "#cottagecoreliving:sets/fairy"
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_flower_wheelbarrow"
+  }
+}

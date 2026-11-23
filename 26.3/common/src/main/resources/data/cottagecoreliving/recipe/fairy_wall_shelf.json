@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wall_shelf",
+  "ingredients": [
+    "#minecraft:wooden_slabs",
+    "#minecraft:wooden_slabs",
+    "#cottagecoreliving:sets/fairy"
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_wall_shelf"
+  }
+}

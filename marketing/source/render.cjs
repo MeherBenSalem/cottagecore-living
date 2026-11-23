@@ -12,7 +12,10 @@ const { chromium } = require('playwright');
 // (plus one row in the compatibility tables of curseforge/description.md and modrinth/description.md).
 const RELEASE = { version: '1.0' };
 const VERSIONS = [
-  { minecraft: '1.20.1', loaders: ['Forge'] },
+  { minecraft: '1.20.1', loaders: ['Fabric', 'Forge'] },
+  { minecraft: '1.21.1', loaders: ['Fabric', 'NeoForge'] },
+  { minecraft: '26.2', loaders: ['Fabric', 'NeoForge'] },
+  { minecraft: '26.3', loaders: ['Fabric', 'NeoForge'] },
 ];
 const LOADERS = ['Fabric', 'Forge', 'NeoForge'].filter((loader) => VERSIONS.some((v) => v.loaders.includes(loader)));
 
@@ -186,7 +189,7 @@ const assets = {
       <div class="rule" style="width:640px;margin:18px 0 24px"></div>
       <div style="font-family:ClDisplay;font-size:42px;color:var(--bark);line-height:1.2">The little details.</div>
       <div style="font-size:27px;color:var(--text);line-height:1.35;margin-top:8px">285 cosy decorations for cottage interiors and gardens,<br>in five themed sets.</div>
-      <div style="margin-top:30px">${LOADERS.map((l) => `<span class="pill">${l}</span>`).join('')}<span class="pill ghost">No dependencies</span></div>
+      <div style="margin-top:30px">${LOADERS.map((l) => `<span class="pill">${l}</span>`).join('')}<span class="pill ghost">Fabric API on Fabric</span></div>
       <div style="margin-top:16px;font-family:ClDisplay;font-size:26px;color:var(--dim)">Minecraft ${versionText}</div>
     </div>
 `),

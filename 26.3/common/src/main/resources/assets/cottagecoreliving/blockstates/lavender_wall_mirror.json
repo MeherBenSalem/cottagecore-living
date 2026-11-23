@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cottagecoreliving:block/lavender_wall_mirror/base"
+    },
+    "facing=east": {
+      "model": "cottagecoreliving:block/lavender_wall_mirror/base",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cottagecoreliving:block/lavender_wall_mirror/base",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cottagecoreliving:block/lavender_wall_mirror/base",
+      "y": 270
+    }
+  }
+}

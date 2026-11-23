@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stacked_books",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "tag": "cottagecoreliving:sets/pink"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_stacked_books"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "flower_crown",
+  "ingredients": [
+    "#minecraft:small_flowers",
+    "#minecraft:small_flowers",
+    "#minecraft:small_flowers",
+    "minecraft:string",
+    "#cottagecoreliving:sets/fairy"
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_flower_crown"
+  }
+}

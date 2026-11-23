@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "seasonal_doormat",
+  "ingredients": [
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "#minecraft:wool_carpets"
+  ],
+  "result": {
+    "id": "cottagecoreliving:seasonal_doormat"
+  }
+}

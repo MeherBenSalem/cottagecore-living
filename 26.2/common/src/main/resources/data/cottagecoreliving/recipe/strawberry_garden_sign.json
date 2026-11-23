@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "garden_sign",
+  "ingredients": [
+    "#minecraft:signs",
+    "#cottagecoreliving:sets/strawberry"
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_garden_sign"
+  }
+}

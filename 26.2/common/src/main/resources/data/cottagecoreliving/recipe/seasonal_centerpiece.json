@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "seasonal_centerpiece",
+  "ingredients": [
+    "#minecraft:wooden_slabs",
+    "minecraft:candle",
+    "#minecraft:small_flowers"
+  ],
+  "result": {
+    "id": "cottagecoreliving:seasonal_centerpiece"
+  }
+}

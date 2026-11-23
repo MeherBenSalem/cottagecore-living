@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "trinket_box",
+  "ingredients": [
+    "#minecraft:wooden_slabs",
+    "#minecraft:wooden_slabs",
+    "minecraft:gold_nugget",
+    "#cottagecoreliving:sets/lavender"
+  ],
+  "result": {
+    "id": "cottagecoreliving:lavender_trinket_box"
+  }
+}

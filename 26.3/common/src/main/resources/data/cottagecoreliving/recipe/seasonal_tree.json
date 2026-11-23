@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "seasonal_tree",
+  "ingredients": [
+    "minecraft:flower_pot",
+    "#minecraft:saplings"
+  ],
+  "result": {
+    "id": "cottagecoreliving:seasonal_tree"
+  }
+}

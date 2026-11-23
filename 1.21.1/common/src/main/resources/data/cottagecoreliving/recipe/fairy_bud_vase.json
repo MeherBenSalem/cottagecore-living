@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bud_vase",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "cottagecoreliving:sets/fairy"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_bud_vase"
+  }
+}

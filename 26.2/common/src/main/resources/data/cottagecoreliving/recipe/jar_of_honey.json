@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mason_jar",
+  "ingredients": [
+    "minecraft:glass",
+    "minecraft:honey_bottle"
+  ],
+  "result": {
+    "id": "cottagecoreliving:jar_of_honey"
+  }
+}

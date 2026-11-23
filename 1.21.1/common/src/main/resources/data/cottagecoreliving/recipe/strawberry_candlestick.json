@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "candlestick",
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "tag": "cottagecoreliving:sets/strawberry"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_candlestick"
+  }
+}

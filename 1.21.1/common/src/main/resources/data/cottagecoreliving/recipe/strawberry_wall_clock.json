@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wall_clock",
+  "ingredients": [
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "cottagecoreliving:sets/strawberry"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_wall_clock"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,open=false,rod=false": {
+      "model": "cottagecoreliving:block/lavender_curtains/base"
+    },
+    "facing=north,open=false,rod=true": {
+      "model": "cottagecoreliving:block/lavender_curtains/rod"
+    },
+    "facing=north,open=true,rod=false": {
+      "model": "cottagecoreliving:block/lavender_curtains/open"
+    },
+    "facing=north,open=true,rod=true": {
+      "model": "cottagecoreliving:block/lavender_curtains/open_rod"
+    },
+    "facing=east,open=false,rod=false": {
+      "model": "cottagecoreliving:block/lavender_curtains/base",
+      "y": 90
+    },
+    "facing=east,open=false,rod=true": {
+      "model": "cottagecoreliving:block/lavender_curtains/rod",
+      "y": 90
+    },
+    "facing=east,open=true,rod=false": {
+      "model": "cottagecoreliving:block/lavender_curtains/open",
+      "y": 90
+    },
+    "facing=east,open=true,rod=true": {
+      "model": "cottagecoreliving:block/lavender_curtains/open_rod",
+      "y": 90
+    },
+    "facing=south,open=false,rod=false": {
+      "model": "cottagecoreliving:block/lavender_curtains/base",
+      "y": 180
+    },
+    "facing=south,open=false,rod=true": {
+      "model": "cottagecoreliving:block/lavender_curtains/rod",
+      "y": 180
+    },
+    "facing=south,open=true,rod=false": {
+      "model": "cottagecoreliving:block/lavender_curtains/open",
+      "y": 180
+    },
+    "facing=south,open=true,rod=true": {
+      "model": "cottagecoreliving:block/lavender_curtains/open_rod",
+      "y": 180
+    },
+    "facing=west,open=false,rod=false": {
+      "model": "cottagecoreliving:block/lavender_curtains/base",
+      "y": 270
+    },
+    "facing=west,open=false,rod=true": {
+      "model": "cottagecoreliving:block/lavender_curtains/rod",
+      "y": 270
+    },
+    "facing=west,open=true,rod=false": {
+      "model": "cottagecoreliving:block/lavender_curtains/open",
+      "y": 270
+    },
+    "facing=west,open=true,rod=true": {
+      "model": "cottagecoreliving:block/lavender_curtains/open_rod",
+      "y": 270
+    }
+  }
+}

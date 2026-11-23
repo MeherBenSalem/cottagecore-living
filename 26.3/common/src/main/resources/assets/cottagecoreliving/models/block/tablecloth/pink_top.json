@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sets_pink_print": "cottagecoreliving:block/sets/pink/print",
+    "particle": "cottagecoreliving:block/sets/pink/print"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        16,
+        0
+      ],
+      "to": [
+        16,
+        16.1,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#sets_pink_print"
+        }
+      }
+    }
+  ]
+}

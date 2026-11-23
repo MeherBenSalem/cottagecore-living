@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "candle_jar",
+  "ingredients": [
+    "minecraft:candle",
+    "minecraft:glass",
+    "#cottagecoreliving:sets/pink"
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_candle_jar"
+  }
+}

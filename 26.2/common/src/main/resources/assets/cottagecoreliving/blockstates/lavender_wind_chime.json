@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,mount=ceiling": {
+      "model": "cottagecoreliving:block/lavender_wind_chime/ceiling"
+    },
+    "facing=north,mount=wall": {
+      "model": "cottagecoreliving:block/lavender_wind_chime/wall"
+    },
+    "facing=east,mount=ceiling": {
+      "model": "cottagecoreliving:block/lavender_wind_chime/ceiling",
+      "y": 90
+    },
+    "facing=east,mount=wall": {
+      "model": "cottagecoreliving:block/lavender_wind_chime/wall",
+      "y": 90
+    },
+    "facing=south,mount=ceiling": {
+      "model": "cottagecoreliving:block/lavender_wind_chime/ceiling",
+      "y": 180
+    },
+    "facing=south,mount=wall": {
+      "model": "cottagecoreliving:block/lavender_wind_chime/wall",
+      "y": 180
+    },
+    "facing=west,mount=ceiling": {
+      "model": "cottagecoreliving:block/lavender_wind_chime/ceiling",
+      "y": 270
+    },
+    "facing=west,mount=wall": {
+      "model": "cottagecoreliving:block/lavender_wind_chime/wall",
+      "y": 270
+    }
+  }
+}

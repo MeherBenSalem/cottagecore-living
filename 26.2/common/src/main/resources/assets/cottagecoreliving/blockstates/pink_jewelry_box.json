@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,open=false,low=false": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/base"
+    },
+    "facing=north,open=false,low=true": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/low"
+    },
+    "facing=north,open=true,low=false": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/open"
+    },
+    "facing=north,open=true,low=true": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/open_low"
+    },
+    "facing=east,open=false,low=false": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/base",
+      "y": 90
+    },
+    "facing=east,open=false,low=true": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/low",
+      "y": 90
+    },
+    "facing=east,open=true,low=false": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/open",
+      "y": 90
+    },
+    "facing=east,open=true,low=true": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/open_low",
+      "y": 90
+    },
+    "facing=south,open=false,low=false": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/base",
+      "y": 180
+    },
+    "facing=south,open=false,low=true": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/low",
+      "y": 180
+    },
+    "facing=south,open=true,low=false": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/open",
+      "y": 180
+    },
+    "facing=south,open=true,low=true": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/open_low",
+      "y": 180
+    },
+    "facing=west,open=false,low=false": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/base",
+      "y": 270
+    },
+    "facing=west,open=false,low=true": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/low",
+      "y": 270
+    },
+    "facing=west,open=true,low=false": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/open",
+      "y": 270
+    },
+    "facing=west,open=true,low=true": {
+      "model": "cottagecoreliving:block/pink_jewelry_box/open_low",
+      "y": 270
+    }
+  }
+}

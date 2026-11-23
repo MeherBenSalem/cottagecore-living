@@ -1,0 +1,204 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "wildflowers": "cottagecoreliving:block/wildflowers",
+    "string": "cottagecoreliving:block/string",
+    "glass_clear": "cottagecoreliving:block/glass_clear",
+    "particle": "cottagecoreliving:block/wildflowers"
+  },
+  "elements": [
+    {
+      "from": [
+        4.5,
+        -14,
+        8
+      ],
+      "to": [
+        11.5,
+        -1,
+        8
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          -7.5,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wildflowers"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wildflowers"
+        }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [
+        4.5,
+        -14,
+        8
+      ],
+      "to": [
+        11.5,
+        -1,
+        8
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          8,
+          -7.5,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wildflowers"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wildflowers"
+        }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [
+        4.9,
+        -9.5,
+        4.9
+      ],
+      "to": [
+        11.1,
+        -8.75,
+        11.1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.9,
+            8.75,
+            11.1,
+            9.5
+          ],
+          "texture": "#string"
+        },
+        "south": {
+          "uv": [
+            4.9,
+            8.75,
+            11.1,
+            9.5
+          ],
+          "texture": "#string"
+        },
+        "east": {
+          "uv": [
+            4.9,
+            8.75,
+            11.1,
+            9.5
+          ],
+          "texture": "#string"
+        },
+        "west": {
+          "uv": [
+            4.9,
+            8.75,
+            11.1,
+            9.5
+          ],
+          "texture": "#string"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        -15,
+        5
+      ],
+      "to": [
+        11,
+        -8,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            8,
+            11,
+            15
+          ],
+          "texture": "#glass_clear"
+        },
+        "south": {
+          "uv": [
+            5,
+            8,
+            11,
+            15
+          ],
+          "texture": "#glass_clear"
+        },
+        "east": {
+          "uv": [
+            5,
+            8,
+            11,
+            15
+          ],
+          "texture": "#glass_clear"
+        },
+        "west": {
+          "uv": [
+            5,
+            8,
+            11,
+            15
+          ],
+          "texture": "#glass_clear"
+        },
+        "down": {
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ],
+          "texture": "#glass_clear"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "basket",
+  "ingredients": [
+    "cottagecoreliving:wicker_basket",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom"
+  ],
+  "result": {
+    "id": "cottagecoreliving:basket_of_mushrooms"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "birdhouse",
+  "ingredients": [
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "minecraft:stick",
+    "#cottagecoreliving:sets/lavender"
+  ],
+  "result": {
+    "id": "cottagecoreliving:lavender_birdhouse"
+  }
+}

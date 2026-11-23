@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "teacups",
+  "ingredients": [
+    "minecraft:brick",
+    "minecraft:bowl",
+    "#cottagecoreliving:sets/vintage"
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_teacups"
+  }
+}

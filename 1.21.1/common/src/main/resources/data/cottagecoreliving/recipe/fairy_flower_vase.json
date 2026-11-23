@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "flower_vase",
+  "ingredients": [
+    {
+      "item": "minecraft:flower_pot"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "cottagecoreliving:sets/fairy"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_flower_vase"
+  }
+}

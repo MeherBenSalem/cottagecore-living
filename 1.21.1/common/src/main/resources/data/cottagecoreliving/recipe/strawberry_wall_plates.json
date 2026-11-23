@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wall_plates",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "tag": "cottagecoreliving:sets/strawberry"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_wall_plates"
+  }
+}

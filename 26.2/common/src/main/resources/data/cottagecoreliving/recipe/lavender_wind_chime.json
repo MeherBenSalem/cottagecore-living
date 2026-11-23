@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wind_chime",
+  "ingredients": [
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:string",
+    "#cottagecoreliving:sets/lavender"
+  ],
+  "result": {
+    "id": "cottagecoreliving:lavender_wind_chime"
+  }
+}

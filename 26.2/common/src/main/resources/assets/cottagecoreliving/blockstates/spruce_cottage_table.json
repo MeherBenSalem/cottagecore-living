@@ -1,0 +1,283 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "cottagecoreliving:block/spruce_cottage_table/top"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/spruce_cottage_table/leg"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/spruce_cottage_table/leg",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/spruce_cottage_table/leg",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "false",
+        "west": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/spruce_cottage_table/leg",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "cloth": "strawberry"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/strawberry_top"
+      }
+    },
+    {
+      "when": {
+        "cloth": "strawberry",
+        "north": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/strawberry_drape"
+      }
+    },
+    {
+      "when": {
+        "cloth": "strawberry",
+        "east": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/strawberry_drape",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "cloth": "strawberry",
+        "south": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/strawberry_drape",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "cloth": "strawberry",
+        "west": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/strawberry_drape",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "cloth": "lavender"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/lavender_top"
+      }
+    },
+    {
+      "when": {
+        "cloth": "lavender",
+        "north": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/lavender_drape"
+      }
+    },
+    {
+      "when": {
+        "cloth": "lavender",
+        "east": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/lavender_drape",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "cloth": "lavender",
+        "south": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/lavender_drape",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "cloth": "lavender",
+        "west": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/lavender_drape",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "cloth": "pink"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/pink_top"
+      }
+    },
+    {
+      "when": {
+        "cloth": "pink",
+        "north": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/pink_drape"
+      }
+    },
+    {
+      "when": {
+        "cloth": "pink",
+        "east": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/pink_drape",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "cloth": "pink",
+        "south": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/pink_drape",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "cloth": "pink",
+        "west": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/pink_drape",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "cloth": "fairy"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/fairy_top"
+      }
+    },
+    {
+      "when": {
+        "cloth": "fairy",
+        "north": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/fairy_drape"
+      }
+    },
+    {
+      "when": {
+        "cloth": "fairy",
+        "east": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/fairy_drape",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "cloth": "fairy",
+        "south": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/fairy_drape",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "cloth": "fairy",
+        "west": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/fairy_drape",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "cloth": "vintage"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/vintage_top"
+      }
+    },
+    {
+      "when": {
+        "cloth": "vintage",
+        "north": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/vintage_drape"
+      }
+    },
+    {
+      "when": {
+        "cloth": "vintage",
+        "east": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/vintage_drape",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "cloth": "vintage",
+        "south": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/vintage_drape",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "cloth": "vintage",
+        "west": "false"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/tablecloth/vintage_drape",
+        "y": 270
+      }
+    }
+  ]
+}

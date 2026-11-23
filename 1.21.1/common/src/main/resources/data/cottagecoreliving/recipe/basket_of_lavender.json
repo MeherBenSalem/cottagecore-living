@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "basket",
+  "ingredients": [
+    {
+      "item": "cottagecoreliving:wicker_basket"
+    },
+    {
+      "item": "minecraft:lilac"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:basket_of_lavender"
+  }
+}

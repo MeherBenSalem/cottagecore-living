@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,mount=wall,low=false": {
+      "model": "cottagecoreliving:block/lavender_window_box/wall"
+    },
+    "facing=north,mount=wall,low=true": {
+      "model": "cottagecoreliving:block/lavender_window_box/wall"
+    },
+    "facing=north,mount=floor,low=false": {
+      "model": "cottagecoreliving:block/lavender_window_box/floor"
+    },
+    "facing=north,mount=floor,low=true": {
+      "model": "cottagecoreliving:block/lavender_window_box/floor_low"
+    },
+    "facing=east,mount=wall,low=false": {
+      "model": "cottagecoreliving:block/lavender_window_box/wall",
+      "y": 90
+    },
+    "facing=east,mount=wall,low=true": {
+      "model": "cottagecoreliving:block/lavender_window_box/wall",
+      "y": 90
+    },
+    "facing=east,mount=floor,low=false": {
+      "model": "cottagecoreliving:block/lavender_window_box/floor",
+      "y": 90
+    },
+    "facing=east,mount=floor,low=true": {
+      "model": "cottagecoreliving:block/lavender_window_box/floor_low",
+      "y": 90
+    },
+    "facing=south,mount=wall,low=false": {
+      "model": "cottagecoreliving:block/lavender_window_box/wall",
+      "y": 180
+    },
+    "facing=south,mount=wall,low=true": {
+      "model": "cottagecoreliving:block/lavender_window_box/wall",
+      "y": 180
+    },
+    "facing=south,mount=floor,low=false": {
+      "model": "cottagecoreliving:block/lavender_window_box/floor",
+      "y": 180
+    },
+    "facing=south,mount=floor,low=true": {
+      "model": "cottagecoreliving:block/lavender_window_box/floor_low",
+      "y": 180
+    },
+    "facing=west,mount=wall,low=false": {
+      "model": "cottagecoreliving:block/lavender_window_box/wall",
+      "y": 270
+    },
+    "facing=west,mount=wall,low=true": {
+      "model": "cottagecoreliving:block/lavender_window_box/wall",
+      "y": 270
+    },
+    "facing=west,mount=floor,low=false": {
+      "model": "cottagecoreliving:block/lavender_window_box/floor",
+      "y": 270
+    },
+    "facing=west,mount=floor,low=true": {
+      "model": "cottagecoreliving:block/lavender_window_box/floor_low",
+      "y": 270
+    }
+  }
+}

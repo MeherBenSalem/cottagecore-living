@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/base"
+    },
+    "facing=north,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/low"
+    },
+    "facing=north,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/lit"
+    },
+    "facing=north,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/lit_low"
+    },
+    "facing=east,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/base",
+      "y": 90
+    },
+    "facing=east,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/low",
+      "y": 90
+    },
+    "facing=east,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/lit",
+      "y": 90
+    },
+    "facing=east,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/lit_low",
+      "y": 90
+    },
+    "facing=south,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/base",
+      "y": 180
+    },
+    "facing=south,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/low",
+      "y": 180
+    },
+    "facing=south,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/lit",
+      "y": 180
+    },
+    "facing=south,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/lit_low",
+      "y": 180
+    },
+    "facing=west,lit=false,low=false": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/base",
+      "y": 270
+    },
+    "facing=west,lit=false,low=true": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/low",
+      "y": 270
+    },
+    "facing=west,lit=true,low=false": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/lit",
+      "y": 270
+    },
+    "facing=west,lit=true,low=true": {
+      "model": "cottagecoreliving:block/vintage_candle_jar/lit_low",
+      "y": 270
+    }
+  }
+}

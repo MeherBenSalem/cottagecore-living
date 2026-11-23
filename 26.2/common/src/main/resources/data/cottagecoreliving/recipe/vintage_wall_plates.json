@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wall_plates",
+  "ingredients": [
+    "minecraft:clay_ball",
+    "minecraft:clay_ball",
+    "minecraft:clay_ball",
+    "#cottagecoreliving:sets/vintage"
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_wall_plates"
+  }
+}

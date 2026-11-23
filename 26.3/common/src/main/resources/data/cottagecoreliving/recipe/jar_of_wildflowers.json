@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mason_jar",
+  "ingredients": [
+    "minecraft:glass",
+    "#minecraft:small_flowers",
+    "#minecraft:small_flowers"
+  ],
+  "result": {
+    "id": "cottagecoreliving:jar_of_wildflowers"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mantel_clock",
+  "ingredients": [
+    "minecraft:clock",
+    "#minecraft:wooden_slabs",
+    "minecraft:gold_nugget",
+    "#cottagecoreliving:sets/vintage"
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_mantel_clock"
+  }
+}

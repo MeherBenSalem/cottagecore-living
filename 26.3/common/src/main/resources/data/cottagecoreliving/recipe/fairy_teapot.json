@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "teapot",
+  "ingredients": [
+    "minecraft:brick",
+    "minecraft:brick",
+    "minecraft:brick",
+    "#cottagecoreliving:sets/fairy"
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_teapot"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "variants": {
+    "facing=north,count=1,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1"
+    },
+    "facing=north,count=1,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_low"
+    },
+    "facing=north,count=1,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_lit"
+    },
+    "facing=north,count=1,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_lit_low"
+    },
+    "facing=north,count=2,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2"
+    },
+    "facing=north,count=2,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_low"
+    },
+    "facing=north,count=2,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_lit"
+    },
+    "facing=north,count=2,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_lit_low"
+    },
+    "facing=north,count=3,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3"
+    },
+    "facing=north,count=3,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_low"
+    },
+    "facing=north,count=3,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_lit"
+    },
+    "facing=north,count=3,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_lit_low"
+    },
+    "facing=east,count=1,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1",
+      "y": 90
+    },
+    "facing=east,count=1,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_low",
+      "y": 90
+    },
+    "facing=east,count=1,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_lit",
+      "y": 90
+    },
+    "facing=east,count=1,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_lit_low",
+      "y": 90
+    },
+    "facing=east,count=2,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2",
+      "y": 90
+    },
+    "facing=east,count=2,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_low",
+      "y": 90
+    },
+    "facing=east,count=2,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_lit",
+      "y": 90
+    },
+    "facing=east,count=2,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_lit_low",
+      "y": 90
+    },
+    "facing=east,count=3,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3",
+      "y": 90
+    },
+    "facing=east,count=3,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_low",
+      "y": 90
+    },
+    "facing=east,count=3,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_lit",
+      "y": 90
+    },
+    "facing=east,count=3,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_lit_low",
+      "y": 90
+    },
+    "facing=south,count=1,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1",
+      "y": 180
+    },
+    "facing=south,count=1,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_low",
+      "y": 180
+    },
+    "facing=south,count=1,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_lit",
+      "y": 180
+    },
+    "facing=south,count=1,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_lit_low",
+      "y": 180
+    },
+    "facing=south,count=2,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2",
+      "y": 180
+    },
+    "facing=south,count=2,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_low",
+      "y": 180
+    },
+    "facing=south,count=2,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_lit",
+      "y": 180
+    },
+    "facing=south,count=2,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_lit_low",
+      "y": 180
+    },
+    "facing=south,count=3,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3",
+      "y": 180
+    },
+    "facing=south,count=3,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_low",
+      "y": 180
+    },
+    "facing=south,count=3,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_lit",
+      "y": 180
+    },
+    "facing=south,count=3,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_lit_low",
+      "y": 180
+    },
+    "facing=west,count=1,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1",
+      "y": 270
+    },
+    "facing=west,count=1,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_low",
+      "y": 270
+    },
+    "facing=west,count=1,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_lit",
+      "y": 270
+    },
+    "facing=west,count=1,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c1_lit_low",
+      "y": 270
+    },
+    "facing=west,count=2,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2",
+      "y": 270
+    },
+    "facing=west,count=2,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_low",
+      "y": 270
+    },
+    "facing=west,count=2,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_lit",
+      "y": 270
+    },
+    "facing=west,count=2,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c2_lit_low",
+      "y": 270
+    },
+    "facing=west,count=3,lit=false,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3",
+      "y": 270
+    },
+    "facing=west,count=3,lit=false,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_low",
+      "y": 270
+    },
+    "facing=west,count=3,lit=true,low=false": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_lit",
+      "y": 270
+    },
+    "facing=west,count=3,lit=true,low=true": {
+      "model": "cottagecoreliving:block/lavender_pillar_candles/c3_lit_low",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wall_mirror",
+  "ingredients": [
+    "minecraft:glass_pane",
+    "minecraft:glass_pane",
+    "minecraft:iron_ingot",
+    "#cottagecoreliving:sets/strawberry"
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_wall_mirror"
+  }
+}

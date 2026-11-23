@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "winter_lantern",
+  "ingredients": [
+    {
+      "item": "minecraft:lantern"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:winter_lantern"
+  }
+}

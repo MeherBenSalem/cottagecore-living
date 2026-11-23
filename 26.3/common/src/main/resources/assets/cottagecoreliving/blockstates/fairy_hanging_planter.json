@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cottagecoreliving:block/fairy_hanging_planter/base"
+    },
+    "facing=east": {
+      "model": "cottagecoreliving:block/fairy_hanging_planter/base",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cottagecoreliving:block/fairy_hanging_planter/base",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cottagecoreliving:block/fairy_hanging_planter/base",
+      "y": 270
+    }
+  }
+}

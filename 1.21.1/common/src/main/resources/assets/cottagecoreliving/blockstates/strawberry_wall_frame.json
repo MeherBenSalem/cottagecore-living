@@ -1,0 +1,351 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/strawberry_wall_frame/base"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "style": "0"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_0"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "style": "1"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "style": "2"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "style": "3"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "style": "4"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_4"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "style": "5"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_5"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "style": "6"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_6"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "style": "7"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_7"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/strawberry_wall_frame/base",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "style": "0"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "style": "1"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "style": "2"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "style": "3"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "style": "4"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "style": "5"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "style": "6"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "style": "7"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/strawberry_wall_frame/base",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "style": "0"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "style": "1"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "style": "2"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "style": "3"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "style": "4"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "style": "5"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "style": "6"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "style": "7"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/strawberry_wall_frame/base",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "style": "0"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "style": "1"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "style": "2"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "style": "3"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "style": "4"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "style": "5"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "style": "6"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "style": "7"
+      },
+      "apply": {
+        "model": "cottagecoreliving:block/wall_frame/style_7",
+        "y": 270
+      }
+    }
+  ]
+}

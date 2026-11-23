@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "pine_garland",
+  "ingredients": [
+    "minecraft:spruce_leaves",
+    "minecraft:spruce_leaves",
+    "minecraft:string",
+    "minecraft:glowstone_dust"
+  ],
+  "result": {
+    "count": 2,
+    "id": "cottagecoreliving:pine_garland"
+  }
+}

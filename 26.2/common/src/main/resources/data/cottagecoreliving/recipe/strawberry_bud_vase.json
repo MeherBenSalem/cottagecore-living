@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bud_vase",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "#minecraft:small_flowers",
+    "#cottagecoreliving:sets/strawberry"
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_bud_vase"
+  }
+}

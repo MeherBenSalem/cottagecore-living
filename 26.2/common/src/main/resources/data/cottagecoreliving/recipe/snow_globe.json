@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "snow_globe",
+  "ingredients": [
+    "minecraft:glass",
+    "minecraft:snowball",
+    "#minecraft:wooden_slabs"
+  ],
+  "result": {
+    "id": "cottagecoreliving:snow_globe"
+  }
+}

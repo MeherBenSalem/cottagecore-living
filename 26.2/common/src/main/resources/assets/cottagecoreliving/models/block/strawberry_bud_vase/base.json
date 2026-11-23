@@ -1,0 +1,574 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sets_strawberry_glaze": "cottagecoreliving:block/sets/strawberry/glaze",
+    "sets_strawberry_ceramic": "cottagecoreliving:block/sets/strawberry/ceramic",
+    "sets_strawberry_ribbon": "cottagecoreliving:block/sets/strawberry/ribbon",
+    "sets_strawberry_bouquet": "cottagecoreliving:block/sets/strawberry/bouquet",
+    "particle": "cottagecoreliving:block/sets/strawberry/glaze"
+  },
+  "elements": [
+    {
+      "from": [
+        6.25,
+        0,
+        6.985
+      ],
+      "to": [
+        9.75,
+        3.5,
+        9.015
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.25,
+            12.5,
+            9.75,
+            16
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "south": {
+          "uv": [
+            6.25,
+            12.5,
+            9.75,
+            16
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "east": {
+          "uv": [
+            6.985,
+            12.5,
+            9.015,
+            16
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "west": {
+          "uv": [
+            6.985,
+            12.5,
+            9.015,
+            16
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "up": {
+          "uv": [
+            6.25,
+            6.985,
+            9.75,
+            9.015
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "down": {
+          "uv": [
+            6.25,
+            6.985,
+            9.75,
+            9.015
+          ],
+          "texture": "#sets_strawberry_glaze",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        6.985,
+        0,
+        6.25
+      ],
+      "to": [
+        9.015,
+        3.5,
+        9.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.985,
+            12.5,
+            9.015,
+            16
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "south": {
+          "uv": [
+            6.985,
+            12.5,
+            9.015,
+            16
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "east": {
+          "uv": [
+            6.25,
+            12.5,
+            9.75,
+            16
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "west": {
+          "uv": [
+            6.25,
+            12.5,
+            9.75,
+            16
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "up": {
+          "uv": [
+            6.985,
+            6.25,
+            9.015,
+            9.75
+          ],
+          "texture": "#sets_strawberry_glaze"
+        },
+        "down": {
+          "uv": [
+            6.985,
+            6.25,
+            9.015,
+            9.75
+          ],
+          "texture": "#sets_strawberry_glaze",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        7.25,
+        3.5,
+        7.565
+      ],
+      "to": [
+        8.75,
+        5.5,
+        8.435
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.25,
+            10.5,
+            8.75,
+            12.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "south": {
+          "uv": [
+            7.25,
+            10.5,
+            8.75,
+            12.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "east": {
+          "uv": [
+            7.565,
+            10.5,
+            8.435,
+            12.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "west": {
+          "uv": [
+            7.565,
+            10.5,
+            8.435,
+            12.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "up": {
+          "uv": [
+            7.25,
+            7.565,
+            8.75,
+            8.435
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "down": {
+          "uv": [
+            7.25,
+            7.565,
+            8.75,
+            8.435
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        }
+      }
+    },
+    {
+      "from": [
+        7.565,
+        3.5,
+        7.25
+      ],
+      "to": [
+        8.435,
+        5.5,
+        8.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.565,
+            10.5,
+            8.435,
+            12.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "south": {
+          "uv": [
+            7.565,
+            10.5,
+            8.435,
+            12.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "east": {
+          "uv": [
+            7.25,
+            10.5,
+            8.75,
+            12.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "west": {
+          "uv": [
+            7.25,
+            10.5,
+            8.75,
+            12.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "up": {
+          "uv": [
+            7.565,
+            7.25,
+            8.435,
+            8.75
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "down": {
+          "uv": [
+            7.565,
+            7.25,
+            8.435,
+            8.75
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        }
+      }
+    },
+    {
+      "from": [
+        6.9,
+        5.5,
+        7.362
+      ],
+      "to": [
+        9.1,
+        6,
+        8.638
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.9,
+            10,
+            9.1,
+            10.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "south": {
+          "uv": [
+            6.9,
+            10,
+            9.1,
+            10.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "east": {
+          "uv": [
+            7.362,
+            10,
+            8.638,
+            10.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "west": {
+          "uv": [
+            7.362,
+            10,
+            8.638,
+            10.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "up": {
+          "uv": [
+            6.9,
+            7.362,
+            9.1,
+            8.638
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "down": {
+          "uv": [
+            6.9,
+            7.362,
+            9.1,
+            8.638
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        }
+      }
+    },
+    {
+      "from": [
+        7.362,
+        5.5,
+        6.9
+      ],
+      "to": [
+        8.638,
+        6,
+        9.1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.362,
+            10,
+            8.638,
+            10.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "south": {
+          "uv": [
+            7.362,
+            10,
+            8.638,
+            10.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "east": {
+          "uv": [
+            6.9,
+            10,
+            9.1,
+            10.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "west": {
+          "uv": [
+            6.9,
+            10,
+            9.1,
+            10.5
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "up": {
+          "uv": [
+            7.362,
+            6.9,
+            8.638,
+            9.1
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        },
+        "down": {
+          "uv": [
+            7.362,
+            6.9,
+            8.638,
+            9.1
+          ],
+          "texture": "#sets_strawberry_ceramic"
+        }
+      }
+    },
+    {
+      "from": [
+        7.2,
+        4.5,
+        7.2
+      ],
+      "to": [
+        8.8,
+        5,
+        8.8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.2,
+            11,
+            8.8,
+            11.5
+          ],
+          "texture": "#sets_strawberry_ribbon"
+        },
+        "south": {
+          "uv": [
+            7.2,
+            11,
+            8.8,
+            11.5
+          ],
+          "texture": "#sets_strawberry_ribbon"
+        },
+        "east": {
+          "uv": [
+            7.2,
+            11,
+            8.8,
+            11.5
+          ],
+          "texture": "#sets_strawberry_ribbon"
+        },
+        "west": {
+          "uv": [
+            7.2,
+            11,
+            8.8,
+            11.5
+          ],
+          "texture": "#sets_strawberry_ribbon"
+        },
+        "up": {
+          "uv": [
+            7.2,
+            7.2,
+            8.8,
+            8.8
+          ],
+          "texture": "#sets_strawberry_ribbon"
+        },
+        "down": {
+          "uv": [
+            7.2,
+            7.2,
+            8.8,
+            8.8
+          ],
+          "texture": "#sets_strawberry_ribbon"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        5,
+        8
+      ],
+      "to": [
+        9.5,
+        14.6,
+        8
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          9.8,
+          8
+        ]
+      },
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            0,
+            11,
+            16
+          ],
+          "texture": "#sets_strawberry_bouquet"
+        },
+        "south": {
+          "uv": [
+            6,
+            0,
+            11,
+            16
+          ],
+          "texture": "#sets_strawberry_bouquet"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        5,
+        8
+      ],
+      "to": [
+        9.5,
+        14.6,
+        8
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          8,
+          9.8,
+          8
+        ]
+      },
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            0,
+            11,
+            16
+          ],
+          "texture": "#sets_strawberry_bouquet"
+        },
+        "south": {
+          "uv": [
+            6,
+            0,
+            11,
+            16
+          ],
+          "texture": "#sets_strawberry_bouquet"
+        }
+      }
+    }
+  ]
+}

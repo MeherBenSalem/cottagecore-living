@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "apple_crate",
+  "ingredients": [
+    "#minecraft:wooden_slabs",
+    "minecraft:apple",
+    "minecraft:apple",
+    "minecraft:apple"
+  ],
+  "result": {
+    "id": "cottagecoreliving:apple_crate"
+  }
+}

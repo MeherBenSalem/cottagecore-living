@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "lemonade_pitcher",
+  "ingredients": [
+    "minecraft:glass",
+    "minecraft:sugar",
+    "minecraft:yellow_dye"
+  ],
+  "result": {
+    "id": "cottagecoreliving:lemonade_pitcher"
+  }
+}

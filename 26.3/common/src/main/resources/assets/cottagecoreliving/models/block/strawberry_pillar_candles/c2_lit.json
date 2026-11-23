@@ -1,0 +1,591 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sets_strawberry_wax": "cottagecoreliving:block/sets/strawberry/wax",
+    "wick": "cottagecoreliving:block/wick",
+    "flame": "cottagecoreliving:block/flame",
+    "particle": "cottagecoreliving:block/sets/strawberry/wax"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        5.84
+      ],
+      "to": [
+        8,
+        7,
+        8.16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            9,
+            12,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "south": {
+          "uv": [
+            4,
+            9,
+            8,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "east": {
+          "uv": [
+            7.84,
+            9,
+            10.16,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "west": {
+          "uv": [
+            5.84,
+            9,
+            8.16,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "up": {
+          "uv": [
+            4,
+            5.84,
+            8,
+            8.16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "down": {
+          "uv": [
+            4,
+            7.84,
+            8,
+            10.16
+          ],
+          "texture": "#sets_strawberry_wax",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        4.84,
+        0,
+        5
+      ],
+      "to": [
+        7.16,
+        7,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.84,
+            9,
+            11.16,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "south": {
+          "uv": [
+            4.84,
+            9,
+            7.16,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "east": {
+          "uv": [
+            7,
+            9,
+            11,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "west": {
+          "uv": [
+            5,
+            9,
+            9,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "up": {
+          "uv": [
+            4.84,
+            5,
+            7.16,
+            9
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "down": {
+          "uv": [
+            4.84,
+            7,
+            7.16,
+            11
+          ],
+          "texture": "#sets_strawberry_wax",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        5.75,
+        7,
+        6.75
+      ],
+      "to": [
+        6.25,
+        8,
+        7.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.75,
+            8,
+            10.25,
+            9
+          ],
+          "texture": "#wick"
+        },
+        "south": {
+          "uv": [
+            5.75,
+            8,
+            6.25,
+            9
+          ],
+          "texture": "#wick"
+        },
+        "east": {
+          "uv": [
+            8.75,
+            8,
+            9.25,
+            9
+          ],
+          "texture": "#wick"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            8,
+            7.25,
+            9
+          ],
+          "texture": "#wick"
+        },
+        "up": {
+          "uv": [
+            5.75,
+            6.75,
+            6.25,
+            7.25
+          ],
+          "texture": "#wick"
+        },
+        "down": {
+          "uv": [
+            5.75,
+            8.75,
+            6.25,
+            9.25
+          ],
+          "texture": "#wick"
+        }
+      }
+    },
+    {
+      "from": [
+        5.325,
+        7.4,
+        7
+      ],
+      "to": [
+        6.675,
+        9.425,
+        7
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          6,
+          8.4125,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            3,
+            12,
+            12
+          ],
+          "texture": "#flame"
+        },
+        "south": {
+          "uv": [
+            6,
+            3,
+            12,
+            12
+          ],
+          "texture": "#flame"
+        }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [
+        5.325,
+        7.4,
+        7
+      ],
+      "to": [
+        6.675,
+        9.425,
+        7
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          6,
+          8.4125,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            3,
+            12,
+            12
+          ],
+          "texture": "#flame"
+        },
+        "south": {
+          "uv": [
+            6,
+            3,
+            12,
+            12
+          ],
+          "texture": "#flame"
+        }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [
+        9.5,
+        0,
+        8.63
+      ],
+      "to": [
+        12.5,
+        4.5,
+        10.37
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            11.5,
+            6.5,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            11.5,
+            12.5,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "east": {
+          "uv": [
+            5.63,
+            11.5,
+            7.37,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "west": {
+          "uv": [
+            8.63,
+            11.5,
+            10.37,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            8.63,
+            12.5,
+            10.37
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "down": {
+          "uv": [
+            9.5,
+            5.63,
+            12.5,
+            7.37
+          ],
+          "texture": "#sets_strawberry_wax",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        10.13,
+        0,
+        8
+      ],
+      "to": [
+        11.87,
+        4.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.13,
+            11.5,
+            5.87,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "south": {
+          "uv": [
+            10.13,
+            11.5,
+            11.87,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "east": {
+          "uv": [
+            5,
+            11.5,
+            8,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "west": {
+          "uv": [
+            8,
+            11.5,
+            11,
+            16
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "up": {
+          "uv": [
+            10.13,
+            8,
+            11.87,
+            11
+          ],
+          "texture": "#sets_strawberry_wax"
+        },
+        "down": {
+          "uv": [
+            10.13,
+            5,
+            11.87,
+            8
+          ],
+          "texture": "#sets_strawberry_wax",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        10.75,
+        4.5,
+        9.25
+      ],
+      "to": [
+        11.25,
+        5.5,
+        9.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.75,
+            10.5,
+            5.25,
+            11.5
+          ],
+          "texture": "#wick"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            10.5,
+            11.25,
+            11.5
+          ],
+          "texture": "#wick"
+        },
+        "east": {
+          "uv": [
+            6.25,
+            10.5,
+            6.75,
+            11.5
+          ],
+          "texture": "#wick"
+        },
+        "west": {
+          "uv": [
+            9.25,
+            10.5,
+            9.75,
+            11.5
+          ],
+          "texture": "#wick"
+        },
+        "up": {
+          "uv": [
+            10.75,
+            9.25,
+            11.25,
+            9.75
+          ],
+          "texture": "#wick"
+        },
+        "down": {
+          "uv": [
+            10.75,
+            6.25,
+            11.25,
+            6.75
+          ],
+          "texture": "#wick"
+        }
+      }
+    },
+    {
+      "from": [
+        10.325,
+        4.9,
+        9.5
+      ],
+      "to": [
+        11.675,
+        6.925,
+        9.5
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          11,
+          5.9125,
+          9.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            3,
+            12,
+            12
+          ],
+          "texture": "#flame"
+        },
+        "south": {
+          "uv": [
+            6,
+            3,
+            12,
+            12
+          ],
+          "texture": "#flame"
+        }
+      },
+      "shade_direction_override": "up"
+    },
+    {
+      "from": [
+        10.325,
+        4.9,
+        9.5
+      ],
+      "to": [
+        11.675,
+        6.925,
+        9.5
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          11,
+          5.9125,
+          9.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            3,
+            12,
+            12
+          ],
+          "texture": "#flame"
+        },
+        "south": {
+          "uv": [
+            6,
+            3,
+            12,
+            12
+          ],
+          "texture": "#flame"
+        }
+      },
+      "shade_direction_override": "up"
+    }
+  ]
+}

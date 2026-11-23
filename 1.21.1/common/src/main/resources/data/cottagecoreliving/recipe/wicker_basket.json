@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "basket",
+  "pattern": [
+    "w w",
+    "www"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "id": "cottagecoreliving:wicker_basket"
+  }
+}

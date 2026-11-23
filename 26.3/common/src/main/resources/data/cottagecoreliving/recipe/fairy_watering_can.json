@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "watering_can",
+  "ingredients": [
+    "minecraft:bucket",
+    "minecraft:iron_nugget",
+    "#cottagecoreliving:sets/fairy"
+  ],
+  "result": {
+    "id": "cottagecoreliving:fairy_watering_can"
+  }
+}

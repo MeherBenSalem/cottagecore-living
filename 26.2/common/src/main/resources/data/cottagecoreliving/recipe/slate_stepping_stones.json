@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stepping_stones",
+  "ingredients": [
+    "minecraft:polished_deepslate_slab",
+    "minecraft:polished_deepslate_slab",
+    "minecraft:polished_deepslate_slab"
+  ],
+  "result": {
+    "count": 4,
+    "id": "cottagecoreliving:slate_stepping_stones"
+  }
+}

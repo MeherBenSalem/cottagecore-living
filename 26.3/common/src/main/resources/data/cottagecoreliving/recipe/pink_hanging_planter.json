@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "hanging_planter",
+  "ingredients": [
+    "minecraft:flower_pot",
+    "minecraft:string",
+    "minecraft:string",
+    "#cottagecoreliving:sets/pink"
+  ],
+  "result": {
+    "id": "cottagecoreliving:pink_hanging_planter"
+  }
+}

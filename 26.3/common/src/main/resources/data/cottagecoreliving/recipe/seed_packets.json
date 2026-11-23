@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "seed_packets",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:wheat_seeds",
+    "minecraft:beetroot_seeds",
+    "minecraft:pumpkin_seeds"
+  ],
+  "result": {
+    "id": "cottagecoreliving:seed_packets"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "pumpkin_stack",
+  "ingredients": [
+    "minecraft:pumpkin",
+    "minecraft:pumpkin_seeds"
+  ],
+  "result": {
+    "id": "cottagecoreliving:pumpkin_stack"
+  }
+}

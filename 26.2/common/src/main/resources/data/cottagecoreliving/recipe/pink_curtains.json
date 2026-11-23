@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "curtains",
+  "ingredients": [
+    "minecraft:white_wool",
+    "minecraft:white_wool",
+    "minecraft:stick",
+    "#cottagecoreliving:sets/pink"
+  ],
+  "result": {
+    "count": 2,
+    "id": "cottagecoreliving:pink_curtains"
+  }
+}

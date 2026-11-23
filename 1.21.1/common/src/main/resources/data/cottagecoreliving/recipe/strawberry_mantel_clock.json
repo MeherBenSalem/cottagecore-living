@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mantel_clock",
+  "ingredients": [
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "tag": "minecraft:wooden_slabs"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "tag": "cottagecoreliving:sets/strawberry"
+    }
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_mantel_clock"
+  }
+}

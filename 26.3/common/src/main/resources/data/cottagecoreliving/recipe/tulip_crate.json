@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tulip_crate",
+  "ingredients": [
+    "minecraft:red_tulip",
+    "minecraft:pink_tulip",
+    "#minecraft:wooden_slabs"
+  ],
+  "result": {
+    "id": "cottagecoreliving:tulip_crate"
+  }
+}

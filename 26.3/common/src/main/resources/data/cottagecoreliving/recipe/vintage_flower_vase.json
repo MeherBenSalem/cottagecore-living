@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "flower_vase",
+  "ingredients": [
+    "minecraft:flower_pot",
+    "#minecraft:small_flowers",
+    "#minecraft:small_flowers",
+    "#cottagecoreliving:sets/vintage"
+  ],
+  "result": {
+    "id": "cottagecoreliving:vintage_flower_vase"
+  }
+}

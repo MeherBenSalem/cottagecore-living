@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "candle_sconce",
+  "ingredients": [
+    "minecraft:candle",
+    "minecraft:iron_nugget",
+    "minecraft:gold_nugget",
+    "#cottagecoreliving:sets/strawberry"
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_candle_sconce"
+  }
+}

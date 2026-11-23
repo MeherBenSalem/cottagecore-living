@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "leaf_pile",
+  "ingredients": [
+    "#minecraft:leaves",
+    "#minecraft:leaves",
+    "minecraft:red_dye"
+  ],
+  "result": {
+    "count": 4,
+    "id": "cottagecoreliving:red_leaf_pile"
+  }
+}

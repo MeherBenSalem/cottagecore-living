@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "basket",
+  "ingredients": [
+    "cottagecoreliving:wicker_basket",
+    "#minecraft:small_flowers",
+    "#minecraft:small_flowers",
+    "#minecraft:small_flowers"
+  ],
+  "result": {
+    "id": "cottagecoreliving:basket_of_flowers"
+  }
+}

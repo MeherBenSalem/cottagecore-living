@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tablecloth",
+  "ingredients": [
+    "minecraft:white_carpet",
+    "minecraft:white_carpet",
+    "#cottagecoreliving:sets/strawberry"
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_tablecloth"
+  }
+}

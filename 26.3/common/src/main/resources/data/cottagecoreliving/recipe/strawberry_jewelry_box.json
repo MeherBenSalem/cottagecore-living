@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "jewelry_box",
+  "ingredients": [
+    "#minecraft:planks",
+    "#minecraft:planks",
+    "minecraft:gold_nugget",
+    "minecraft:glass_pane",
+    "#cottagecoreliving:sets/strawberry"
+  ],
+  "result": {
+    "id": "cottagecoreliving:strawberry_jewelry_box"
+  }
+}

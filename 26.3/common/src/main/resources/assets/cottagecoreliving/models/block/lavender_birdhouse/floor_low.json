@@ -1,0 +1,658 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sets_lavender_paint": "cottagecoreliving:block/sets/lavender/paint",
+    "sets_lavender_paint_light": "cottagecoreliving:block/sets/lavender/paint_light",
+    "dark": "cottagecoreliving:block/dark",
+    "branch": "cottagecoreliving:block/branch",
+    "sets_lavender_roof": "cottagecoreliving:block/sets/lavender/roof",
+    "sets_lavender_ribbon": "cottagecoreliving:block/sets/lavender/ribbon",
+    "particle": "cottagecoreliving:block/sets/lavender/paint"
+  },
+  "elements": [
+    {
+      "from": [
+        4.5,
+        -15,
+        4.5
+      ],
+      "to": [
+        11.5,
+        -14.25,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            14.25,
+            11.5,
+            15
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            14.25,
+            11.5,
+            15
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            14.25,
+            11.5,
+            15
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            14.25,
+            11.5,
+            15
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            4.5,
+            11.5,
+            11.5
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            4.5,
+            11.5,
+            11.5
+          ],
+          "texture": "#sets_lavender_paint"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        -14.25,
+        5
+      ],
+      "to": [
+        11,
+        -8,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            8,
+            11,
+            14.25
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "south": {
+          "uv": [
+            5,
+            8,
+            11,
+            14.25
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "east": {
+          "uv": [
+            5,
+            8,
+            11,
+            14.25
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "west": {
+          "uv": [
+            5,
+            8,
+            11,
+            14.25
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "up": {
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "down": {
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ],
+          "texture": "#sets_lavender_paint_light"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        -8,
+        5
+      ],
+      "to": [
+        10,
+        -7,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            7,
+            10,
+            8
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "south": {
+          "uv": [
+            6,
+            7,
+            10,
+            8
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "east": {
+          "uv": [
+            5,
+            7,
+            11,
+            8
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "west": {
+          "uv": [
+            5,
+            7,
+            11,
+            8
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "up": {
+          "uv": [
+            6,
+            5,
+            10,
+            11
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "down": {
+          "uv": [
+            6,
+            5,
+            10,
+            11
+          ],
+          "texture": "#sets_lavender_paint_light"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        -7,
+        5
+      ],
+      "to": [
+        9,
+        -6.25,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            6.25,
+            9,
+            7
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "south": {
+          "uv": [
+            7,
+            6.25,
+            9,
+            7
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "east": {
+          "uv": [
+            5,
+            6.25,
+            11,
+            7
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "west": {
+          "uv": [
+            5,
+            6.25,
+            11,
+            7
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "up": {
+          "uv": [
+            7,
+            5,
+            9,
+            11
+          ],
+          "texture": "#sets_lavender_paint_light"
+        },
+        "down": {
+          "uv": [
+            7,
+            5,
+            9,
+            11
+          ],
+          "texture": "#sets_lavender_paint_light"
+        }
+      }
+    },
+    {
+      "from": [
+        7.1,
+        -11.25,
+        4.95
+      ],
+      "to": [
+        8.9,
+        -9.5,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.1,
+            9.5,
+            8.9,
+            11.25
+          ],
+          "texture": "#dark"
+        }
+      }
+    },
+    {
+      "from": [
+        7.75,
+        -12.5,
+        3
+      ],
+      "to": [
+        8.25,
+        -12,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.75,
+            12,
+            8.25,
+            12.5
+          ],
+          "texture": "#branch"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            12,
+            8.25,
+            12.5
+          ],
+          "texture": "#branch"
+        },
+        "east": {
+          "uv": [
+            11,
+            12,
+            13,
+            12.5
+          ],
+          "texture": "#branch"
+        },
+        "west": {
+          "uv": [
+            3,
+            12,
+            5,
+            12.5
+          ],
+          "texture": "#branch"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            3,
+            8.25,
+            5
+          ],
+          "texture": "#branch"
+        },
+        "down": {
+          "uv": [
+            7.75,
+            11,
+            8.25,
+            13
+          ],
+          "texture": "#branch"
+        }
+      }
+    },
+    {
+      "from": [
+        2.2685,
+        -7,
+        4
+      ],
+      "to": [
+        9.2315,
+        -6,
+        12
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          5.75,
+          -6.5,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6.7685,
+            6,
+            13.7315,
+            7
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "south": {
+          "uv": [
+            2.2685,
+            6,
+            9.2315,
+            7
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "east": {
+          "uv": [
+            4,
+            6,
+            12,
+            7
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "west": {
+          "uv": [
+            4,
+            6,
+            12,
+            7
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "up": {
+          "uv": [
+            2.2685,
+            4,
+            9.2315,
+            12
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "down": {
+          "uv": [
+            2.2685,
+            4,
+            9.2315,
+            12
+          ],
+          "texture": "#sets_lavender_roof"
+        }
+      }
+    },
+    {
+      "from": [
+        6.7685,
+        -7,
+        4
+      ],
+      "to": [
+        13.7315,
+        -6,
+        12
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "z",
+        "origin": [
+          10.25,
+          -6.5,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2.2685,
+            6,
+            9.2315,
+            7
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "south": {
+          "uv": [
+            6.7685,
+            6,
+            13.7315,
+            7
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "east": {
+          "uv": [
+            4,
+            6,
+            12,
+            7
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "west": {
+          "uv": [
+            4,
+            6,
+            12,
+            7
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "up": {
+          "uv": [
+            6.7685,
+            4,
+            13.7315,
+            12
+          ],
+          "texture": "#sets_lavender_roof"
+        },
+        "down": {
+          "uv": [
+            6.7685,
+            4,
+            13.7315,
+            12
+          ],
+          "texture": "#sets_lavender_roof"
+        }
+      }
+    },
+    {
+      "from": [
+        7.4,
+        -4.75,
+        3.75
+      ],
+      "to": [
+        8.6,
+        -3.75,
+        12.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.4,
+            3.75,
+            8.6,
+            4.75
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "south": {
+          "uv": [
+            7.4,
+            3.75,
+            8.6,
+            4.75
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "east": {
+          "uv": [
+            3.75,
+            3.75,
+            12.25,
+            4.75
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            3.75,
+            12.25,
+            4.75
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "up": {
+          "uv": [
+            7.4,
+            3.75,
+            8.6,
+            12.25
+          ],
+          "texture": "#sets_lavender_paint"
+        },
+        "down": {
+          "uv": [
+            7.4,
+            3.75,
+            8.6,
+            12.25
+          ],
+          "texture": "#sets_lavender_paint"
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        -13.5,
+        4.75
+      ],
+      "to": [
+        6.5,
+        -12.5,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            12.5,
+            10.5,
+            13.5
+          ],
+          "texture": "#sets_lavender_ribbon"
+        },
+        "east": {
+          "uv": [
+            11,
+            12.5,
+            11.25,
+            13.5
+          ],
+          "texture": "#sets_lavender_ribbon"
+        },
+        "west": {
+          "uv": [
+            4.75,
+            12.5,
+            5,
+            13.5
+          ],
+          "texture": "#sets_lavender_ribbon"
+        },
+        "up": {
+          "uv": [
+            5.5,
+            4.75,
+            6.5,
+            5
+          ],
+          "texture": "#sets_lavender_ribbon"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            11,
+            6.5,
+            11.25
+          ],
+          "texture": "#sets_lavender_ribbon"
+        }
+      }
+    }
+  ]
+}

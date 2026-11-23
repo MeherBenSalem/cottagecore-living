@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "daffodil_pot",
+  "ingredients": [
+    "minecraft:flower_pot",
+    "minecraft:dandelion",
+    "minecraft:dandelion"
+  ],
+  "result": {
+    "id": "cottagecoreliving:daffodil_pot"
+  }
+}
