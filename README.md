@@ -27,7 +27,7 @@ Every decoration at a glance: [interior](docs/catalog_interior.png), [garden](do
 | Command | What it does |
 |---|---|
 | `python tools/generate_assets.py` | Regenerates every texture, model, blockstate, item model, loot table, recipe, tag, the language file **and** `catalog/DecorCatalog.java`, then checks every reference and looks for recipes that would shadow each other. |
-| `./gradlew build` | Builds the mod jar: `build/libs/cottagecoreliving-1.20.1-1.0.0.jar`. |
+| `./gradlew build` | Builds the mod jar: `build/libs/cottagecoreliving-forge-1.20.1-1.0.0.jar`. |
 | `./gradlew runClient` | Starts a development client with the mod. |
 | `./gradlew runGameTestServer` | Runs the 13 automated in-game tests and exits (non-zero on failure). |
 | `./gradlew runClient -Pshowcase` | Builds a decorated showcase world, screenshots each scene and the collection book into `run/screenshots/`, then quits. Development only; it is left out of the jar. |
